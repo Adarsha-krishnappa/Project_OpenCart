@@ -21,8 +21,7 @@
 		          <artifactId>maven-surefire-plugin</artifactId>
 		          <version>3.2.2</version>
 		          <configuration>
-					  <suiteXmlFiles>
-						  
+					  <suiteXmlFiles>						  
 						   <suiteXmlFile>master.xml</suiteXmlFile>
 					  </suiteXmlFiles>
 				  </configuration>
@@ -33,9 +32,6 @@
 	 
 	 
  </build>
-  
-  
-  
   
   
   
