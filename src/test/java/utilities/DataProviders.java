@@ -16,7 +16,7 @@ public class DataProviders {
 		
 		ExcelUtility xlutil=new ExcelUtility(path);//creating an object for XLUtility
 		
-				
+		
 		int totalrows=xlutil.getRowCount("Sheet1");	
 		int totalcols=xlutil.getCellCount("Sheet1",1);
 				

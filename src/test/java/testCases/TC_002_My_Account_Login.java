@@ -42,7 +42,9 @@ public class TC_002_My_Account_Login extends BaseClass {
 		catch(Exception e) {
 		Assert.fail();
 		}
+		finally {
 		logger.info("******test completed*******");
+		}
 	}
 
 }
