@@ -34,8 +34,68 @@ public class DataProviders {
 	}
 	
 	//DataProvider 2
+	@DataProvider(name="Searchproduct")
+	public String[][] getProduct() throws IOException
+	{
+		String path=".\\testData\\Opencart_LoginData.xlsx";//taking xl file from testData
+		ExcelUtility util=new ExcelUtility(path);
+		int totalrows=util.getRowCount("Sheet2");
+		int totalcols=util.getCellCount("Sheet2", 1);
+		
+		String SearchProduct[][]=new String[totalrows][totalcols];
+		
+		for(int i=1;i<=totalrows;i++)
+		{
+			for(int j=0;j<totalcols;j++)
+			{
+				SearchProduct[i-1][j]=util.getCellData("Sheet2", i, j);
+			}
+		}
+		return SearchProduct;
+	}
 	
 	//DataProvider 3
+	@DataProvider(name="compareProducts")
+	public String[][] ProductCompare() throws IOException
+	{
+		String path=".\\testData\\OpenCart_ProductCompare.xlsx";//taking xl file from testData
+		ExcelUtility util=new ExcelUtility(path);
+		int totalrows=util.getRowCount("Sheet1");
+		int totalcols=util.getCellCount("Sheet1", 1);
+		
+		String productcomp[][]=new String[totalrows][totalcols];
+		
+		for(int i=1;i<=totalrows;i++)
+		{
+			for(int j=0;j<totalcols;j++)
+			{
+				productcomp[i-1][j]=util.getCellData("Sheet1", i, j);
+			}
+		}
+		return productcomp;
+	}
 	
 	//DataProvider 4
+	@DataProvider(name="WishList")
+	public String[][] grtWishlistData() throws IOException
+	{
+		String path=".\\testData\\OpenCart_WishList.xlsx";
+		ExcelUtility utills=new ExcelUtility(path);
+		
+		int totalrows=utills.getRowCount("Sheet1");
+		int totalcols=utills.getCellCount("Sheet1", 1);
+		
+		
+		String searchdata[][]=new String[totalrows][totalcols];
+		for(int i=1;i<=totalrows;i++)
+		{
+			for(int j=0;j<totalcols;j++)
+			{
+				searchdata[i-1][j]=utills.getCellData("Sheet1", i, j);
+			}
+		}
+		return searchdata;
+				
+				
+	}
 }

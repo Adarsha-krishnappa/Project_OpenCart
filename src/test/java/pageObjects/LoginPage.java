@@ -22,6 +22,8 @@ WebElement txtPassword;
 @FindBy(xpath = "//input[@value='Login']")
 WebElement btnLogin;
 
+@FindBy(xpath="//a[text()='Forgotten Password']")
+WebElement link_FrgtPswd;
 
 public void setEmail(String email) {
 	txtEmailAddress.sendKeys(email);
@@ -34,6 +36,9 @@ public void setPassword(String pwd) {
 public void clickLogin() {
 	btnLogin.click();
 }
-
+public void clickforgetpassword()
+{
+	link_FrgtPswd.click();
+}
 
 }

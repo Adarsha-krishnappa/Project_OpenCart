@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="mysuite" >
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager"/>
+	</listeners>
+	
+	<test name="mytest" thread-count="5">
+		<parameter name="os" value="windows"/>
+		<parameter name="browser" value="chrome"></parameter> 
+		<groups>
+			<run>
+				<!-- <include name="sanity"></include>-->
+				<!-- <exclude name="Datadriven"></exclude>-->
+			</run>
+		</groups>
+		<classes>
+		    <class name="testCases.TC_004_ForgetPasswordTest"></class>
+			<class name="testCases.TC_005_SearchProductTestDDT"></class>
+			<class name="testCases.TC_006_ProductCompareTest"></class>
+			<class name="testCases.TC_007_ProductDisplayPageTest"></class>
+			<class name="testCases.TC_008_AddtoCartTest1"></class>
+			<class name="testCases.TC_009_AddtoCartTest2"></class>
+			<class name="testCases.TC_010_AddtoWishListTestDDT"></class>
+		</classes>
+	</test>
+	
+	
+	<test name="mytest2" thread-count="5">
+		<parameter name="os" value="Linux"/>
+		<parameter name="browser" value="firefox"></parameter> 
+		<groups>
+			<run>
+				<!-- <include name="sanity"></include>-->
+				<!-- <exclude name="Datadriven"></exclude>-->
+			</run>
+		</groups>
+		<classes>
+		    <class name="testCases.TC_004_ForgetPasswordTest"></class>
+			<class name="testCases.TC_005_SearchProductTestDDT"></class>
+			<class name="testCases.TC_006_ProductCompareTest"></class>
+			<class name="testCases.TC_007_ProductDisplayPageTest"></class>
+			<class name="testCases.TC_008_AddtoCartTest1"></class>
+			<class name="testCases.TC_009_AddtoCartTest2"></class>
+			<class name="testCases.TC_010_AddtoWishListTestDDT"></class>
+		</classes>
+	</test>
+	
+</suite>

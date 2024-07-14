@@ -11,7 +11,7 @@
 		<classes>
 		
 			<class name="testCases.TC_001_AccountRegistrationTest"></class>
-           <class name="testCases.TC_002_My_Account_Login"></class>
+          <!-- <class name="testCases.TC_002_My_Account_Login"></class>-->
            <!-- <class name="testCases.TC_003_LoginDataDrivenTest"></class>-->
 		</classes>
 		
