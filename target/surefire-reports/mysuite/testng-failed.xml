@@ -8,13 +8,110 @@
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="testCases.TC_007_ProductDisplayPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="ProductDisplayPage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_007_ProductDisplayPageTest -->
+      <class name="testCases.TC_010_AddtoWishListTestDDT">
+        <methods>
+          <include name="tearDown"/>
+          <include name="addtoWishListTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_010_AddtoWishListTestDDT -->
       <class name="testCases.TC_006_ProductCompareTest">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="CompareProduct" invocation-numbers="2"/>
+          <include name="CompareProduct"/>
         </methods>
       </class> <!-- testCases.TC_006_ProductCompareTest -->
+      <class name="testCases.TC_005_SearchProductTestDDT">
+        <methods>
+          <include name="tearDown"/>
+          <include name="searchproduct"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_005_SearchProductTestDDT -->
+      <class name="testCases.TC_008_AddtoCartTest1">
+        <methods>
+          <include name="AddtoCartTest1"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_008_AddtoCartTest1 -->
+      <class name="testCases.TC_009_AddtoCartTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="Addtocarttest2"/>
+        </methods>
+      </class> <!-- testCases.TC_009_AddtoCartTest2 -->
+      <class name="testCases.TC_004_ForgetPasswordTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="forgetpassword"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_004_ForgetPasswordTest -->
     </classes>
   </test> <!-- mytest(failed) -->
+  <test thread-count="5" name="mytest2(failed)" verbose="0">
+    <parameter name="os" value="Linux"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testCases.TC_007_ProductDisplayPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="ProductDisplayPage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_007_ProductDisplayPageTest -->
+      <class name="testCases.TC_010_AddtoWishListTestDDT">
+        <methods>
+          <include name="tearDown"/>
+          <include name="addtoWishListTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_010_AddtoWishListTestDDT -->
+      <class name="testCases.TC_006_ProductCompareTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="CompareProduct"/>
+        </methods>
+      </class> <!-- testCases.TC_006_ProductCompareTest -->
+      <class name="testCases.TC_005_SearchProductTestDDT">
+        <methods>
+          <include name="searchproduct"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_005_SearchProductTestDDT -->
+      <class name="testCases.TC_008_AddtoCartTest1">
+        <methods>
+          <include name="AddtoCartTest1"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_008_AddtoCartTest1 -->
+      <class name="testCases.TC_009_AddtoCartTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="Addtocarttest2"/>
+        </methods>
+      </class> <!-- testCases.TC_009_AddtoCartTest2 -->
+      <class name="testCases.TC_004_ForgetPasswordTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="forgetpassword"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_004_ForgetPasswordTest -->
+    </classes>
+  </test> <!-- mytest2(failed) -->
 </suite> <!-- Failed suite [mysuite] -->

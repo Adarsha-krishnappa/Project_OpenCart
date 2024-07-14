@@ -28,24 +28,27 @@ public class TC_003_LoginDataDrivenTest extends BaseClass {
 		MyAccount ma=new MyAccount(driver);
 		boolean targetpage=ma.isMyAccountPageExists();
 		
-		if(expt_rst.equalsIgnoreCase("valid"))
+		if(expt_rst.equals("Valid"))
 		{
 			if(targetpage==true)
 			{
 				ma.ClickLogOut();
+				
 				Assert.assertTrue(true);
 			}
 			else
 			{
 				Assert.assertTrue(false);
 			}
+		}
 			
-		}
-		if(expt_rst.equalsIgnoreCase("invalid"))
+		
+		if(expt_rst.equals("Invalid"))
 		{
 			if(targetpage==true)
 			{
 				ma.ClickLogOut();
+				
 				Assert.assertTrue(false);
 			}
 			else
@@ -53,7 +56,6 @@ public class TC_003_LoginDataDrivenTest extends BaseClass {
 				Assert.assertTrue(true);
 			}
 		}
-		
 	    }catch(Exception e)
 		{
 	    	Assert.fail();

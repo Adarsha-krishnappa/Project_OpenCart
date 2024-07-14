@@ -19,6 +19,7 @@
 			<class name="testCases.TC_008_AddtoCartTest1"></class>
 			<class name="testCases.TC_009_AddtoCartTest2"></class>
 			<class name="testCases.TC_010_AddtoWishListTestDDT"></class>
+			         
 		</classes>
 		
 	</test>
