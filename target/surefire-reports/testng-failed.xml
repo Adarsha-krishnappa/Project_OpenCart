@@ -1,20 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [mysuite]" guice-stage="DEVELOPMENT" verbose="0">
+<suite name="Failed suite [mastersuite]" guice-stage="DEVELOPMENT" verbose="0">
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" name="mytest(failed)" verbose="0">
+  <test thread-count="5" name="mytest1(failed)" verbose="0">
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="testCases.TC_010_AddtoWishListTestDDT">
+        <methods>
+          <include name="tearDown"/>
+          <include name="addtoWishListTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_010_AddtoWishListTestDDT -->
+      <class name="testCases.TC_004_ForgetPasswordTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="forgetpassword"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_004_ForgetPasswordTest -->
+      <class name="testCases.TC_002_My_Account_Login">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="my_accountlogin"/>
+        </methods>
+      </class> <!-- testCases.TC_002_My_Account_Login -->
+      <class name="testCases.TC_009_AddtoCartTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="Addtocarttest2"/>
+        </methods>
+      </class> <!-- testCases.TC_009_AddtoCartTest2 -->
+      <class name="testCases.TC_008_AddtoCartTest1">
+        <methods>
+          <include name="AddtoCartTest1"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_008_AddtoCartTest1 -->
+      <class name="testCases.TC_005_SearchProductTestDDT">
+        <methods>
+          <include name="tearDown"/>
+          <include name="searchproduct"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_005_SearchProductTestDDT -->
+      <class name="testCases.TC_007_ProductDisplayPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="ProductDisplayPage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_007_ProductDisplayPageTest -->
+      <class name="testCases.TC_003_LoginDataDrivenTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifytest"/>
+        </methods>
+      </class> <!-- testCases.TC_003_LoginDataDrivenTest -->
+      <class name="testCases.TC_001_AccountRegistrationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="test_accountRegistration"/>
+        </methods>
+      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
       <class name="testCases.TC_006_ProductCompareTest">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="CompareProduct" invocation-numbers="2"/>
+          <include name="CompareProduct"/>
         </methods>
       </class> <!-- testCases.TC_006_ProductCompareTest -->
     </classes>
-  </test> <!-- mytest(failed) -->
-</suite> <!-- Failed suite [mysuite] -->
+  </test> <!-- mytest1(failed) -->
+</suite> <!-- Failed suite [mastersuite] -->
