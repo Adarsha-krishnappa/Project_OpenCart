@@ -13,11 +13,13 @@ import javax.print.DocFlavor.URL;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;  // Log4j
 import org.apache.logging.log4j.Logger;   // Log4j
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -44,8 +46,7 @@ public Properties P;
 		
 		
 		logger=LogManager.getLogger(this.getClass()); //Log4j
-		
-		
+	
 		if(P.getProperty("execution_env").equalsIgnoreCase("remote"))
 		{
 			DesiredCapabilities capabilities=new DesiredCapabilities();
@@ -53,7 +54,7 @@ public Properties P;
 			//os
 			if(os.equalsIgnoreCase("windows"))
 			{
-				capabilities.setPlatform(Platform.WIN11);
+				capabilities.setPlatform(Platform.WIN10);
 			}
 			else if(os.equalsIgnoreCase("linux"))
 			{
@@ -132,11 +133,12 @@ public Properties P;
 	}
 	
 
+
 	public String captureScreen(String tname) throws IOException {
 
 		
-		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date(0));
-				
+		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date(100));
+		
 		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
 		File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
 		
@@ -147,5 +149,6 @@ public Properties P;
 			
 		return targetFilePath;
 	}
+	
 	
 }

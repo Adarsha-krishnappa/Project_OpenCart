@@ -26,7 +26,7 @@ public class TC_009_AddtoCartTest2 extends BaseClass{
 		js.executeScript("arguments[0].click();", dp.linkShoopingCart);
 		
 		ShoppingcartPage sp=new ShoppingcartPage(driver);
-		boolean targetpage=sp.getShoopingCartConfirmsg();
+		boolean targetpage=sp.AddProductPresent();
 		
 		if(targetpage==true)
 		{

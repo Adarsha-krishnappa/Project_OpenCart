@@ -10,7 +10,7 @@ import testBase.BaseClass;
 
 public class TC_004_ForgetPasswordTest extends BaseClass {
 
-	@Test(groups= {"sanity,master"})
+	@Test(groups= {"sanity,master","regression"})
 	public void forgetpassword()
 	{
 		try {

@@ -11,7 +11,7 @@ import utilities.DataProviders;
 public class TC_010_AddtoWishListTestDDT extends BaseClass{
 	
 	
-	@Test(dataProvider="WishList",dataProviderClass=DataProviders.class , groups= {"sanity","smoke","master","Datadriven"})
+	@Test(dataProvider="WishList",dataProviderClass=DataProviders.class , groups= {"sanity","regression","smoke","master","Datadriven"})
 	public void addtoWishListTest(String product, String Exp_res)
 	{
 		try {

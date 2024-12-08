@@ -13,7 +13,7 @@ public class ProductPage extends BasePage {
 		super(driver);
 	}
 	
-	@FindBy(xpath="//a[normalize-space()='Reviews (0)']")
+	@FindBy(xpath="//*[text()='0 reviews']")
 	WebElement tabReview;
 	
 	@FindBy(xpath="//input[@id='input-name']")
@@ -35,7 +35,12 @@ public class ProductPage extends BasePage {
 	WebElement buttonAddtoCart;
 	
 	@FindBy(xpath="//a[normalize-space()='shopping cart']")
-	WebElement linkShoppingCart;
+	WebElement ShoppingCartLink;
+	
+	@FindBy(xpath="//a[text()='Reviews (0)']")
+	WebElement ReviewBtn;
+	
+	
 	
 	public String randomeStringName()
 	{
@@ -47,6 +52,7 @@ public class ProductPage extends BasePage {
 		String generatedString=RandomStringUtils.randomAlphabetic(30);
 		return generatedString;
 	}
+	
 	
 	
 	public void clicktabReview()
@@ -83,8 +89,11 @@ public class ProductPage extends BasePage {
 	{
 		buttonAddtoCart.click();
 	}
-	public void lnkShoppingcart()
+	public void ClickShoppingcartLink()
 	{
-		linkShoppingCart.click();
+		ShoppingCartLink.click();
 	}
+	
+	
+	
 }

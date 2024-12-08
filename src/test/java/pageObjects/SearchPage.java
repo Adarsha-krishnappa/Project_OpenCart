@@ -28,7 +28,7 @@ WebElement clickWishList;
 @FindBy(xpath="//p[contains(text(),'There is no product that matches the search criter')]")
 WebElement msgNoExistingProducts;
 
-@FindBy(xpath="//img[@title='iMac']")
+@FindBy(xpath="//img[@alt='iMac' and @class='img-responsive']")
 WebElement clkonselectedproduct;
 
 @FindBy(xpath="//span[normalize-space()='Add to Cart']")

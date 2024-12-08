@@ -7,14 +7,19 @@
   <test thread-count="5" name="mytest(failed)">
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
     <classes>
-      <class name="testCases.TC_006_ProductCompareTest">
+      <class name="testCases.TC_016_Validate_EstimateShippingandTaxes_functionality">
         <methods>
           <include name="tearDown"/>
+          <include name="EstimateShippingAndTaxes"/>
           <include name="setup"/>
-          <include name="CompareProduct" invocation-numbers="2"/>
         </methods>
-      </class> <!-- testCases.TC_006_ProductCompareTest -->
+      </class> <!-- testCases.TC_016_Validate_EstimateShippingandTaxes_functionality -->
     </classes>
   </test> <!-- mytest(failed) -->
 </suite> <!-- Failed suite [mysuite] -->
