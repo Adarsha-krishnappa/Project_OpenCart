@@ -1,335 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="1" failed="0" skipped="3">
+<testng-results ignored="0" total="30" passed="29" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-08T20:53:20 IST" name="mastersuite" finished-at="2024-12-08T20:56:38 IST" duration-ms="198570">
+  <suite started-at="2024-12-09T11:06:36 IST" name="mastersuite" finished-at="2024-12-09T11:12:19 IST" duration-ms="342295">
     <groups>
       <group name="regression">
-        <method signature="TC_001_AccountRegistrationTest.test_accountRegistration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@2f48b3d2]" name="test_accountRegistration" class="testCases.TC_001_AccountRegistrationTest"/>
-        <method signature="TC_002_My_Account_Login.my_accountlogin()[pri:0, instance:testCases.TC_002_My_Account_Login@101639ae]" name="my_accountlogin" class="testCases.TC_002_My_Account_Login"/>
-        <method signature="TC_001_AccountRegistrationTest.test_accountRegistration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@6f2cfcc2]" name="test_accountRegistration" class="testCases.TC_001_AccountRegistrationTest"/>
-        <method signature="TC_002_My_Account_Login.my_accountlogin()[pri:0, instance:testCases.TC_002_My_Account_Login@7f6f61c8]" name="my_accountlogin" class="testCases.TC_002_My_Account_Login"/>
+        <method signature="TC_001_AccountRegistrationTest.test_accountRegistration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@53142455]" name="test_accountRegistration" class="testCases.TC_001_AccountRegistrationTest"/>
+        <method signature="TC_002_My_Account_Login.my_accountlogin()[pri:0, instance:testCases.TC_002_My_Account_Login@61c9c3fd]" name="my_accountlogin" class="testCases.TC_002_My_Account_Login"/>
+        <method signature="TC_003_LoginDataDrivenTest.verifytest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@3b0c9195]" name="verifytest" class="testCases.TC_003_LoginDataDrivenTest"/>
+        <method signature="TC_004_ForgetPasswordTest.forgetpassword()[pri:0, instance:testCases.TC_004_ForgetPasswordTest@366c4480]" name="forgetpassword" class="testCases.TC_004_ForgetPasswordTest"/>
+        <method signature="TC_005_SearchProductTestDDT.searchproduct(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_005_SearchProductTestDDT@2c7b5824]" name="searchproduct" class="testCases.TC_005_SearchProductTestDDT"/>
+        <method signature="TC_006_ProductCompareTest.CompareProduct(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_006_ProductCompareTest@302a07d]" name="CompareProduct" class="testCases.TC_006_ProductCompareTest"/>
+        <method signature="TC_007_ProductDisplayPageTest.ProductDisplayPage()[pri:0, instance:testCases.TC_007_ProductDisplayPageTest@5cdd09b1]" name="ProductDisplayPage" class="testCases.TC_007_ProductDisplayPageTest"/>
+        <method signature="TC_008_AddtoCartTest1.AddtoCartTest1()[pri:0, instance:testCases.TC_008_AddtoCartTest1@8c11eee]" name="AddtoCartTest1" class="testCases.TC_008_AddtoCartTest1"/>
+        <method signature="TC_009_AddtoCartTest2.Addtocarttest2()[pri:0, instance:testCases.TC_009_AddtoCartTest2@7e8dcdaa]" name="Addtocarttest2" class="testCases.TC_009_AddtoCartTest2"/>
+        <method signature="TC_010_AddtoWishListTestDDT.addtoWishListTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_010_AddtoWishListTestDDT@681a8b4e]" name="addtoWishListTest" class="testCases.TC_010_AddtoWishListTestDDT"/>
+        <method signature="TC_011_Validate_Shopping_Cart_page.Validate_ShopingCartPage()[pri:0, instance:testCases.TC_011_Validate_Shopping_Cart_page@5cbe877d]" name="Validate_ShopingCartPage" class="testCases.TC_011_Validate_Shopping_Cart_page"/>
+        <method signature="TC_012_Validate_Updating_UserDeatils.Updating_UserDeatils()[pri:0, instance:testCases.TC_012_Validate_Updating_UserDeatils@5c08c46a]" name="Updating_UserDeatils" class="testCases.TC_012_Validate_Updating_UserDeatils"/>
+        <method signature="TC_013_Validate_ReviewOnProduct.ReviewOnProduct()[pri:0, instance:testCases.TC_013_Validate_ReviewOnProduct@4cf8b2dc]" name="ReviewOnProduct" class="testCases.TC_013_Validate_ReviewOnProduct"/>
+        <method signature="TC_014_Validate_CouponCode_Functionality.CouponCode_Functionality()[pri:0, instance:testCases.TC_014_Validate_CouponCode_Functionality@708400f6]" name="CouponCode_Functionality" class="testCases.TC_014_Validate_CouponCode_Functionality"/>
+        <method signature="TC_015_Validate_GiftCertificate_Functionality.GiftCertficate()[pri:0, instance:testCases.TC_015_Validate_GiftCertificate_Functionality@5829e4f4]" name="GiftCertficate" class="testCases.TC_015_Validate_GiftCertificate_Functionality"/>
+        <method signature="TC_016_Validate_EstimateShippingandTaxes_functionality.EstimateShippingAndTaxes()[pri:0, instance:testCases.TC_016_Validate_EstimateShippingandTaxes_functionality@4218500f]" name="EstimateShippingAndTaxes" class="testCases.TC_016_Validate_EstimateShippingandTaxes_functionality"/>
       </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TC_007_ProductDisplayPageTest.ProductDisplayPage()[pri:0, instance:testCases.TC_007_ProductDisplayPageTest@5cdd09b1]" name="ProductDisplayPage" class="testCases.TC_007_ProductDisplayPageTest"/>
+        <method signature="TC_010_AddtoWishListTestDDT.addtoWishListTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_010_AddtoWishListTestDDT@681a8b4e]" name="addtoWishListTest" class="testCases.TC_010_AddtoWishListTestDDT"/>
+      </group> <!-- smoke -->
       <group name="sanity">
-        <method signature="TC_002_My_Account_Login.my_accountlogin()[pri:0, instance:testCases.TC_002_My_Account_Login@101639ae]" name="my_accountlogin" class="testCases.TC_002_My_Account_Login"/>
-        <method signature="TC_002_My_Account_Login.my_accountlogin()[pri:0, instance:testCases.TC_002_My_Account_Login@7f6f61c8]" name="my_accountlogin" class="testCases.TC_002_My_Account_Login"/>
+        <method signature="TC_002_My_Account_Login.my_accountlogin()[pri:0, instance:testCases.TC_002_My_Account_Login@61c9c3fd]" name="my_accountlogin" class="testCases.TC_002_My_Account_Login"/>
+        <method signature="TC_003_LoginDataDrivenTest.verifytest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@3b0c9195]" name="verifytest" class="testCases.TC_003_LoginDataDrivenTest"/>
+        <method signature="TC_005_SearchProductTestDDT.searchproduct(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_005_SearchProductTestDDT@2c7b5824]" name="searchproduct" class="testCases.TC_005_SearchProductTestDDT"/>
+        <method signature="TC_006_ProductCompareTest.CompareProduct(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_006_ProductCompareTest@302a07d]" name="CompareProduct" class="testCases.TC_006_ProductCompareTest"/>
+        <method signature="TC_007_ProductDisplayPageTest.ProductDisplayPage()[pri:0, instance:testCases.TC_007_ProductDisplayPageTest@5cdd09b1]" name="ProductDisplayPage" class="testCases.TC_007_ProductDisplayPageTest"/>
+        <method signature="TC_008_AddtoCartTest1.AddtoCartTest1()[pri:0, instance:testCases.TC_008_AddtoCartTest1@8c11eee]" name="AddtoCartTest1" class="testCases.TC_008_AddtoCartTest1"/>
+        <method signature="TC_009_AddtoCartTest2.Addtocarttest2()[pri:0, instance:testCases.TC_009_AddtoCartTest2@7e8dcdaa]" name="Addtocarttest2" class="testCases.TC_009_AddtoCartTest2"/>
+        <method signature="TC_010_AddtoWishListTestDDT.addtoWishListTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_010_AddtoWishListTestDDT@681a8b4e]" name="addtoWishListTest" class="testCases.TC_010_AddtoWishListTestDDT"/>
       </group> <!-- sanity -->
+      <group name="sanity,master">
+        <method signature="TC_004_ForgetPasswordTest.forgetpassword()[pri:0, instance:testCases.TC_004_ForgetPasswordTest@366c4480]" name="forgetpassword" class="testCases.TC_004_ForgetPasswordTest"/>
+      </group> <!-- sanity,master -->
+      <group name="Datadriven">
+        <method signature="TC_003_LoginDataDrivenTest.verifytest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@3b0c9195]" name="verifytest" class="testCases.TC_003_LoginDataDrivenTest"/>
+        <method signature="TC_005_SearchProductTestDDT.searchproduct(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_005_SearchProductTestDDT@2c7b5824]" name="searchproduct" class="testCases.TC_005_SearchProductTestDDT"/>
+        <method signature="TC_006_ProductCompareTest.CompareProduct(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_006_ProductCompareTest@302a07d]" name="CompareProduct" class="testCases.TC_006_ProductCompareTest"/>
+        <method signature="TC_010_AddtoWishListTestDDT.addtoWishListTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_010_AddtoWishListTestDDT@681a8b4e]" name="addtoWishListTest" class="testCases.TC_010_AddtoWishListTestDDT"/>
+      </group> <!-- Datadriven -->
       <group name="master">
-        <method signature="TC_001_AccountRegistrationTest.test_accountRegistration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@2f48b3d2]" name="test_accountRegistration" class="testCases.TC_001_AccountRegistrationTest"/>
-        <method signature="TC_002_My_Account_Login.my_accountlogin()[pri:0, instance:testCases.TC_002_My_Account_Login@101639ae]" name="my_accountlogin" class="testCases.TC_002_My_Account_Login"/>
-        <method signature="TC_001_AccountRegistrationTest.test_accountRegistration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@6f2cfcc2]" name="test_accountRegistration" class="testCases.TC_001_AccountRegistrationTest"/>
-        <method signature="TC_002_My_Account_Login.my_accountlogin()[pri:0, instance:testCases.TC_002_My_Account_Login@7f6f61c8]" name="my_accountlogin" class="testCases.TC_002_My_Account_Login"/>
+        <method signature="TC_001_AccountRegistrationTest.test_accountRegistration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@53142455]" name="test_accountRegistration" class="testCases.TC_001_AccountRegistrationTest"/>
+        <method signature="TC_002_My_Account_Login.my_accountlogin()[pri:0, instance:testCases.TC_002_My_Account_Login@61c9c3fd]" name="my_accountlogin" class="testCases.TC_002_My_Account_Login"/>
+        <method signature="TC_003_LoginDataDrivenTest.verifytest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@3b0c9195]" name="verifytest" class="testCases.TC_003_LoginDataDrivenTest"/>
+        <method signature="TC_005_SearchProductTestDDT.searchproduct(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_005_SearchProductTestDDT@2c7b5824]" name="searchproduct" class="testCases.TC_005_SearchProductTestDDT"/>
+        <method signature="TC_006_ProductCompareTest.CompareProduct(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_006_ProductCompareTest@302a07d]" name="CompareProduct" class="testCases.TC_006_ProductCompareTest"/>
+        <method signature="TC_008_AddtoCartTest1.AddtoCartTest1()[pri:0, instance:testCases.TC_008_AddtoCartTest1@8c11eee]" name="AddtoCartTest1" class="testCases.TC_008_AddtoCartTest1"/>
+        <method signature="TC_009_AddtoCartTest2.Addtocarttest2()[pri:0, instance:testCases.TC_009_AddtoCartTest2@7e8dcdaa]" name="Addtocarttest2" class="testCases.TC_009_AddtoCartTest2"/>
+        <method signature="TC_010_AddtoWishListTestDDT.addtoWishListTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_010_AddtoWishListTestDDT@681a8b4e]" name="addtoWishListTest" class="testCases.TC_010_AddtoWishListTestDDT"/>
+        <method signature="TC_011_Validate_Shopping_Cart_page.Validate_ShopingCartPage()[pri:0, instance:testCases.TC_011_Validate_Shopping_Cart_page@5cbe877d]" name="Validate_ShopingCartPage" class="testCases.TC_011_Validate_Shopping_Cart_page"/>
+        <method signature="TC_012_Validate_Updating_UserDeatils.Updating_UserDeatils()[pri:0, instance:testCases.TC_012_Validate_Updating_UserDeatils@5c08c46a]" name="Updating_UserDeatils" class="testCases.TC_012_Validate_Updating_UserDeatils"/>
+        <method signature="TC_013_Validate_ReviewOnProduct.ReviewOnProduct()[pri:0, instance:testCases.TC_013_Validate_ReviewOnProduct@4cf8b2dc]" name="ReviewOnProduct" class="testCases.TC_013_Validate_ReviewOnProduct"/>
+        <method signature="TC_014_Validate_CouponCode_Functionality.CouponCode_Functionality()[pri:0, instance:testCases.TC_014_Validate_CouponCode_Functionality@708400f6]" name="CouponCode_Functionality" class="testCases.TC_014_Validate_CouponCode_Functionality"/>
+        <method signature="TC_015_Validate_GiftCertificate_Functionality.GiftCertficate()[pri:0, instance:testCases.TC_015_Validate_GiftCertificate_Functionality@5829e4f4]" name="GiftCertficate" class="testCases.TC_015_Validate_GiftCertificate_Functionality"/>
+        <method signature="TC_016_Validate_EstimateShippingandTaxes_functionality.EstimateShippingAndTaxes()[pri:0, instance:testCases.TC_016_Validate_EstimateShippingandTaxes_functionality@4218500f]" name="EstimateShippingAndTaxes" class="testCases.TC_016_Validate_EstimateShippingandTaxes_functionality"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2024-12-08T20:53:20 IST" name="Linux-Firefox" finished-at="2024-12-08T20:56:33 IST" duration-ms="193495">
-      <class name="testCases.TC_001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@6f2cfcc2]" started-at="2024-12-08T20:53:20 IST" name="setup" finished-at="2024-12-08T20:55:50 IST" duration-ms="149170" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Linux]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: unknown error 
-Host info: host: '832b35d8483e', ip: '172.20.0.2'
-Build info: version: '4.27.0', revision: 'd6e718d'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.153.1-microsoft-standard-WSL2', java.version: '17.0.13'
-Driver info: driver.version: unknown
-Build info: version: '4.27.0', revision: 'd6e718d'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.153.1-microsoft-standard-WSL2', java.version: '17.0.13'
-Driver info: driver.version: unknown
-Build info: version: '4.27.0', revision: 'd6e718d'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.153.1-microsoft-standard-WSL2', java.version: '17.0.13'
-Driver info: driver.version: unknown
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: firefox, platformName: linux}]}]
-Capabilities {browserName: firefox, platformName: linux}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: unknown error 
-Host info: host: '832b35d8483e', ip: '172.20.0.2'
-Build info: version: '4.27.0', revision: 'd6e718d'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.153.1-microsoft-standard-WSL2', java.version: '17.0.13'
-Driver info: driver.version: unknown
-Build info: version: '4.27.0', revision: 'd6e718d'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.153.1-microsoft-standard-WSL2', java.version: '17.0.13'
-Driver info: driver.version: unknown
-Build info: version: '4.27.0', revision: 'd6e718d'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.153.1-microsoft-standard-WSL2', java.version: '17.0.13'
-Driver info: driver.version: unknown
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: firefox, platformName: linux}]}]
-Capabilities {browserName: firefox, platformName: linux}
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:160)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
-at testBase.BaseClass.setup(BaseClass.java:82)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="test_accountRegistration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@6f2cfcc2]" started-at="2024-12-08T20:55:50 IST" name="test_accountRegistration" finished-at="2024-12-08T20:55:50 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: unknown error 
-Host info: host: '832b35d8483e', ip: '172.20.0.2'
-Build info: version: '4.27.0', revision: 'd6e718d'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.153.1-microsoft-standard-WSL2', java.version: '17.0.13'
-Driver info: driver.version: unknown
-Build info: version: '4.27.0', revision: 'd6e718d'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.153.1-microsoft-standard-WSL2', java.version: '17.0.13'
-Driver info: driver.version: unknown
-Build info: version: '4.27.0', revision: 'd6e718d'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.153.1-microsoft-standard-WSL2', java.version: '17.0.13'
-Driver info: driver.version: unknown
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: firefox, platformName: linux}]}]
-Capabilities {browserName: firefox, platformName: linux}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: unknown error 
-Host info: host: '832b35d8483e', ip: '172.20.0.2'
-Build info: version: '4.27.0', revision: 'd6e718d'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.153.1-microsoft-standard-WSL2', java.version: '17.0.13'
-Driver info: driver.version: unknown
-Build info: version: '4.27.0', revision: 'd6e718d'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.153.1-microsoft-standard-WSL2', java.version: '17.0.13'
-Driver info: driver.version: unknown
-Build info: version: '4.27.0', revision: 'd6e718d'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.153.1-microsoft-standard-WSL2', java.version: '17.0.13'
-Driver info: driver.version: unknown
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: firefox, platformName: linux}]}]
-Capabilities {browserName: firefox, platformName: linux}
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:160)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
-at testBase.BaseClass.setup(BaseClass.java:82)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_accountRegistration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@6f2cfcc2]" started-at="2024-12-08T20:55:50 IST" name="tearDown" finished-at="2024-12-08T20:55:50 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
-      <class name="testCases.TC_002_My_Account_Login">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_My_Account_Login@7f6f61c8]" started-at="2024-12-08T20:55:50 IST" name="setup" finished-at="2024-12-08T20:56:33 IST" duration-ms="43404" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Linux]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: Could not start a new session. Build info: version: '4.27.0', revision: 'd6e718d'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.153.1-microsoft-standard-WSL2', java.version: '17.0.13'
-Driver info: driver.version: unknown 
-Host info: host: '61794530f951', ip: '172.20.0.4'
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: firefox, platformName: linux}]}]
-Capabilities {browserName: firefox, platformName: linux}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not start a new session. Build info: version: '4.27.0', revision: 'd6e718d'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.153.1-microsoft-standard-WSL2', java.version: '17.0.13'
-Driver info: driver.version: unknown 
-Host info: host: '61794530f951', ip: '172.20.0.4'
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: firefox, platformName: linux}]}]
-Capabilities {browserName: firefox, platformName: linux}
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:160)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
-at testBase.BaseClass.setup(BaseClass.java:82)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="my_accountlogin()[pri:0, instance:testCases.TC_002_My_Account_Login@7f6f61c8]" started-at="2024-12-08T20:56:33 IST" name="my_accountlogin" finished-at="2024-12-08T20:56:33 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: Could not start a new session. Build info: version: '4.27.0', revision: 'd6e718d'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.153.1-microsoft-standard-WSL2', java.version: '17.0.13'
-Driver info: driver.version: unknown 
-Host info: host: '61794530f951', ip: '172.20.0.4'
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: firefox, platformName: linux}]}]
-Capabilities {browserName: firefox, platformName: linux}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not start a new session. Build info: version: '4.27.0', revision: 'd6e718d'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.153.1-microsoft-standard-WSL2', java.version: '17.0.13'
-Driver info: driver.version: unknown 
-Host info: host: '61794530f951', ip: '172.20.0.4'
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: firefox, platformName: linux}]}]
-Capabilities {browserName: firefox, platformName: linux}
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:160)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
-at testBase.BaseClass.setup(BaseClass.java:82)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- my_accountlogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_My_Account_Login@7f6f61c8]" started-at="2024-12-08T20:56:33 IST" name="tearDown" finished-at="2024-12-08T20:56:33 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_002_My_Account_Login -->
-    </test> <!-- Linux-Firefox -->
-    <test started-at="2024-12-08T20:53:20 IST" name="Linux-Chrome" finished-at="2024-12-08T20:56:38 IST" duration-ms="198569">
-      <class name="testCases.TC_001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@2f48b3d2]" started-at="2024-12-08T20:53:20 IST" name="setup" finished-at="2024-12-08T20:55:48 IST" duration-ms="148013" status="PASS">
+    <test started-at="2024-12-09T11:06:36 IST" name="mytest1" finished-at="2024-12-09T11:12:19 IST" duration-ms="342295">
+      <class name="testCases.TC_006_ProductCompareTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_006_ProductCompareTest@302a07d]" started-at="2024-12-09T11:09:16 IST" name="setup" finished-at="2024-12-09T11:09:21 IST" duration-ms="4354" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -338,24 +73,68 @@ at java.base/java.lang.Thread.run(Thread.java:833)
             </param>
             <param index="1">
               <value>
-                <![CDATA[Linux]]>
+                <![CDATA[windows]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_accountRegistration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@2f48b3d2]" started-at="2024-12-08T20:55:49 IST" name="test_accountRegistration" finished-at="2024-12-08T20:56:07 IST" duration-ms="18730" status="PASS">
+        <test-method signature="CompareProduct(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_006_ProductCompareTest@302a07d]" started-at="2024-12-09T11:09:22 IST" name="CompareProduct" data-provider="compareProducts" finished-at="2024-12-09T11:09:24 IST" duration-ms="2068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_accountRegistration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@2f48b3d2]" started-at="2024-12-08T20:56:07 IST" name="tearDown" finished-at="2024-12-08T20:56:09 IST" duration-ms="2157" status="PASS">
+        </test-method> <!-- CompareProduct -->
+        <test-method signature="CompareProduct(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_006_ProductCompareTest@302a07d]" started-at="2024-12-09T11:09:24 IST" name="CompareProduct" data-provider="compareProducts" finished-at="2024-12-09T11:09:25 IST" duration-ms="1421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MacBook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompareProduct -->
+        <test-method signature="CompareProduct(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_006_ProductCompareTest@302a07d]" started-at="2024-12-09T11:09:25 IST" name="CompareProduct" data-provider="compareProducts" finished-at="2024-12-09T11:09:26 IST" duration-ms="1468" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompareProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_006_ProductCompareTest@302a07d]" started-at="2024-12-09T11:09:26 IST" name="tearDown" finished-at="2024-12-09T11:09:27 IST" duration-ms="322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
-      <class name="testCases.TC_002_My_Account_Login">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_My_Account_Login@101639ae]" started-at="2024-12-08T20:56:09 IST" name="setup" finished-at="2024-12-08T20:56:38 IST" duration-ms="28787" status="FAIL">
+      </class> <!-- testCases.TC_006_ProductCompareTest -->
+      <class name="testCases.TC_010_AddtoWishListTestDDT">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_010_AddtoWishListTestDDT@681a8b4e]" started-at="2024-12-09T11:09:52 IST" name="setup" finished-at="2024-12-09T11:09:56 IST" duration-ms="3713" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -364,188 +143,691 @@ at java.base/java.lang.Thread.run(Thread.java:833)
             </param>
             <param index="1">
               <value>
-                <![CDATA[Linux]]>
+                <![CDATA[windows]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-KK1SMTI', ip: '192.168.1.9'
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: linux}]}]
-Capabilities {browserName: chrome, platformName: linux}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-KK1SMTI', ip: '192.168.1.9'
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: linux}]}]
-Capabilities {browserName: chrome, platformName: linux}
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:160)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
-at testBase.BaseClass.setup(BaseClass.java:82)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-Caused by: java.io.UncheckedIOException: java.io.IOException: HTTP/1.1 header parser received no bytes
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:496)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$1(JdkHttpClient.java:383)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-... 4 more
-Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
-at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:586)
-at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:119)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:455)
-... 8 more
-Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
-at java.net.http/jdk.internal.net.http.common.Utils.wrapWithExtraDetail(Utils.java:348)
-at java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.onReadError(Http1Response.java:675)
-at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.checkForErrors(Http1AsyncReceiver.java:302)
-at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.flush(Http1AsyncReceiver.java:268)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
-... 3 more
-Caused by: java.io.EOFException: EOF reached while reading
-at java.net.http/jdk.internal.net.http.Http1AsyncReceiver$Http1TubeSubscriber.onComplete(Http1AsyncReceiver.java:596)
-at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadSubscription.signalCompletion(SocketTube.java:640)
-at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:845)
-at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
-at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
-at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
-at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:979)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:934)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:934)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="my_accountlogin()[pri:0, instance:testCases.TC_002_My_Account_Login@101639ae]" started-at="2024-12-08T20:56:38 IST" name="my_accountlogin" finished-at="2024-12-08T20:56:38 IST" duration-ms="1" status="SKIP">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
+        <test-method signature="addtoWishListTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_010_AddtoWishListTestDDT@681a8b4e]" started-at="2024-12-09T11:09:56 IST" name="addtoWishListTest" data-provider="WishList" finished-at="2024-12-09T11:10:00 IST" duration-ms="4195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtoWishListTest -->
+        <test-method signature="addtoWishListTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_010_AddtoWishListTestDDT@681a8b4e]" started-at="2024-12-09T11:10:00 IST" name="addtoWishListTest" data-provider="WishList" finished-at="2024-12-09T11:10:05 IST" duration-ms="4893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Iphone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtoWishListTest -->
+        <test-method signature="addtoWishListTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_010_AddtoWishListTestDDT@681a8b4e]" started-at="2024-12-09T11:10:05 IST" name="addtoWishListTest" data-provider="WishList" finished-at="2024-12-09T11:10:10 IST" duration-ms="4317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung SyncMaster 941BW]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtoWishListTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_010_AddtoWishListTestDDT@681a8b4e]" started-at="2024-12-09T11:10:10 IST" name="tearDown" finished-at="2024-12-09T11:10:10 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_010_AddtoWishListTestDDT -->
+      <class name="testCases.TC_015_Validate_GiftCertificate_Functionality">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_015_Validate_GiftCertificate_Functionality@5829e4f4]" started-at="2024-12-09T11:11:43 IST" name="setup" finished-at="2024-12-09T11:11:48 IST" duration-ms="5585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="GiftCertficate()[pri:0, instance:testCases.TC_015_Validate_GiftCertificate_Functionality@5829e4f4]" started-at="2024-12-09T11:11:48 IST" name="GiftCertficate" finished-at="2024-12-09T11:12:00 IST" duration-ms="11534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GiftCertficate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_015_Validate_GiftCertificate_Functionality@5829e4f4]" started-at="2024-12-09T11:12:00 IST" name="tearDown" finished-at="2024-12-09T11:12:00 IST" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_015_Validate_GiftCertificate_Functionality -->
+      <class name="testCases.TC_004_ForgetPasswordTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004_ForgetPasswordTest@366c4480]" started-at="2024-12-09T11:08:15 IST" name="setup" finished-at="2024-12-09T11:08:21 IST" duration-ms="6340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="forgetpassword()[pri:0, instance:testCases.TC_004_ForgetPasswordTest@366c4480]" started-at="2024-12-09T11:08:21 IST" name="forgetpassword" finished-at="2024-12-09T11:08:26 IST" duration-ms="4578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgetpassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_004_ForgetPasswordTest@366c4480]" started-at="2024-12-09T11:08:26 IST" name="tearDown" finished-at="2024-12-09T11:08:27 IST" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_004_ForgetPasswordTest -->
+      <class name="testCases.TC_008_AddtoCartTest1">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_008_AddtoCartTest1@8c11eee]" started-at="2024-12-09T11:09:36 IST" name="setup" finished-at="2024-12-09T11:09:42 IST" duration-ms="5687" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AddtoCartTest1()[pri:0, instance:testCases.TC_008_AddtoCartTest1@8c11eee]" started-at="2024-12-09T11:09:42 IST" name="AddtoCartTest1" finished-at="2024-12-09T11:09:44 IST" duration-ms="2465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddtoCartTest1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_008_AddtoCartTest1@8c11eee]" started-at="2024-12-09T11:09:44 IST" name="tearDown" finished-at="2024-12-09T11:09:45 IST" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_008_AddtoCartTest1 -->
+      <class name="testCases.TC_003_LoginDataDrivenTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@3b0c9195]" started-at="2024-12-09T11:07:04 IST" name="setup" finished-at="2024-12-09T11:07:09 IST" duration-ms="4986" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifytest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@3b0c9195]" started-at="2024-12-09T11:07:13 IST" name="verifytest" data-provider="LoginData" finished-at="2024-12-09T11:07:25 IST" duration-ms="11919" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pavanoltraining@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-KK1SMTI', ip: '192.168.1.9'
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: linux}]}]
-Capabilities {browserName: chrome, platformName: linux}]]>
+              <![CDATA[expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-KK1SMTI', ip: '192.168.1.9'
-Build info: version: '4.27.0', revision: 'd6e718d134'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: linux}]}]
-Capabilities {browserName: chrome, platformName: linux}
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:160)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
-at testBase.BaseClass.setup(BaseClass.java:82)
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testCases.TC_003_LoginDataDrivenTest.verifytest(TC_003_LoginDataDrivenTest.java:41)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:848)
 at org.testng.TestRunner.run(TestRunner.java:621)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-Caused by: java.io.UncheckedIOException: java.io.IOException: HTTP/1.1 header parser received no bytes
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:496)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$1(JdkHttpClient.java:383)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-... 4 more
-Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
-at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:586)
-at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:119)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:455)
-... 8 more
-Caused by: java.io.IOException: HTTP/1.1 header parser received no bytes
-at java.net.http/jdk.internal.net.http.common.Utils.wrapWithExtraDetail(Utils.java:348)
-at java.net.http/jdk.internal.net.http.Http1Response$HeadersReader.onReadError(Http1Response.java:675)
-at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.checkForErrors(Http1AsyncReceiver.java:302)
-at java.net.http/jdk.internal.net.http.Http1AsyncReceiver.flush(Http1AsyncReceiver.java:268)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:205)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
-... 3 more
-Caused by: java.io.EOFException: EOF reached while reading
-at java.net.http/jdk.internal.net.http.Http1AsyncReceiver$Http1TubeSubscriber.onComplete(Http1AsyncReceiver.java:596)
-at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadSubscription.signalCompletion(SocketTube.java:640)
-at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:845)
-at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
-at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
-at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
-at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
-at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:979)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:934)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:934)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytest -->
+        <test-method signature="verifytest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@3b0c9195]" started-at="2024-12-09T11:07:25 IST" name="verifytest" data-provider="LoginData" finished-at="2024-12-09T11:07:29 IST" duration-ms="4279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lakshmi@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Laxmi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytest -->
+        <test-method signature="verifytest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@3b0c9195]" started-at="2024-12-09T11:07:29 IST" name="verifytest" data-provider="LoginData" finished-at="2024-12-09T11:07:33 IST" duration-ms="3287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laksh@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lakshmi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytest -->
+        <test-method signature="verifytest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@3b0c9195]" started-at="2024-12-09T11:07:33 IST" name="verifytest" data-provider="LoginData" finished-at="2024-12-09T11:07:45 IST" duration-ms="12802" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laks@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytest -->
+        <test-method signature="verifytest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@3b0c9195]" started-at="2024-12-09T11:07:45 IST" name="verifytest" data-provider="LoginData" finished-at="2024-12-09T11:07:49 IST" duration-ms="3246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytest -->
+        <test-method signature="verifytest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@3b0c9195]" started-at="2024-12-09T11:07:49 IST" name="verifytest" data-provider="LoginData" finished-at="2024-12-09T11:08:01 IST" duration-ms="12674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytest -->
+        <test-method signature="verifytest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@3b0c9195]" started-at="2024-12-09T11:08:01 IST" name="verifytest" data-provider="LoginData" finished-at="2024-12-09T11:08:13 IST" duration-ms="11771" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_LoginDataDrivenTest@3b0c9195]" started-at="2024-12-09T11:08:13 IST" name="tearDown" finished-at="2024-12-09T11:08:15 IST" duration-ms="1892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_003_LoginDataDrivenTest -->
+      <class name="testCases.TC_014_Validate_CouponCode_Functionality">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_014_Validate_CouponCode_Functionality@708400f6]" started-at="2024-12-09T11:11:26 IST" name="setup" finished-at="2024-12-09T11:11:32 IST" duration-ms="5787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CouponCode_Functionality()[pri:0, instance:testCases.TC_014_Validate_CouponCode_Functionality@708400f6]" started-at="2024-12-09T11:11:32 IST" name="CouponCode_Functionality" finished-at="2024-12-09T11:11:42 IST" duration-ms="10089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CouponCode_Functionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_014_Validate_CouponCode_Functionality@708400f6]" started-at="2024-12-09T11:11:42 IST" name="tearDown" finished-at="2024-12-09T11:11:43 IST" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_014_Validate_CouponCode_Functionality -->
+      <class name="testCases.TC_001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@53142455]" started-at="2024-12-09T11:06:37 IST" name="setup" finished-at="2024-12-09T11:06:48 IST" duration-ms="11433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_accountRegistration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@53142455]" started-at="2024-12-09T11:06:48 IST" name="test_accountRegistration" finished-at="2024-12-09T11:06:54 IST" duration-ms="5204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_accountRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@53142455]" started-at="2024-12-09T11:06:54 IST" name="tearDown" finished-at="2024-12-09T11:06:54 IST" duration-ms="566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
+      <class name="testCases.TC_016_Validate_EstimateShippingandTaxes_functionality">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_016_Validate_EstimateShippingandTaxes_functionality@4218500f]" started-at="2024-12-09T11:12:00 IST" name="setup" finished-at="2024-12-09T11:12:04 IST" duration-ms="4088" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="EstimateShippingAndTaxes()[pri:0, instance:testCases.TC_016_Validate_EstimateShippingandTaxes_functionality@4218500f]" started-at="2024-12-09T11:12:04 IST" name="EstimateShippingAndTaxes" finished-at="2024-12-09T11:12:18 IST" duration-ms="13902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EstimateShippingAndTaxes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_016_Validate_EstimateShippingandTaxes_functionality@4218500f]" started-at="2024-12-09T11:12:18 IST" name="tearDown" finished-at="2024-12-09T11:12:19 IST" duration-ms="529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_016_Validate_EstimateShippingandTaxes_functionality -->
+      <class name="testCases.TC_012_Validate_Updating_UserDeatils">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_012_Validate_Updating_UserDeatils@5c08c46a]" started-at="2024-12-09T11:10:19 IST" name="setup" finished-at="2024-12-09T11:10:23 IST" duration-ms="3988" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Updating_UserDeatils()[pri:0, instance:testCases.TC_012_Validate_Updating_UserDeatils@5c08c46a]" started-at="2024-12-09T11:10:23 IST" name="Updating_UserDeatils" finished-at="2024-12-09T11:10:53 IST" duration-ms="29463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Updating_UserDeatils -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_012_Validate_Updating_UserDeatils@5c08c46a]" started-at="2024-12-09T11:10:53 IST" name="tearDown" finished-at="2024-12-09T11:10:53 IST" duration-ms="561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_012_Validate_Updating_UserDeatils -->
+      <class name="testCases.TC_011_Validate_Shopping_Cart_page">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_011_Validate_Shopping_Cart_page@5cbe877d]" started-at="2024-12-09T11:10:10 IST" name="setup" finished-at="2024-12-09T11:10:13 IST" duration-ms="3471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Validate_ShopingCartPage()[pri:0, instance:testCases.TC_011_Validate_Shopping_Cart_page@5cbe877d]" started-at="2024-12-09T11:10:13 IST" name="Validate_ShopingCartPage" finished-at="2024-12-09T11:10:19 IST" duration-ms="5458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_ShopingCartPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_011_Validate_Shopping_Cart_page@5cbe877d]" started-at="2024-12-09T11:10:19 IST" name="tearDown" finished-at="2024-12-09T11:10:19 IST" duration-ms="447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_011_Validate_Shopping_Cart_page -->
+      <class name="testCases.TC_002_My_Account_Login">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_My_Account_Login@61c9c3fd]" started-at="2024-12-09T11:06:54 IST" name="setup" finished-at="2024-12-09T11:07:00 IST" duration-ms="5534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="my_accountlogin()[pri:0, instance:testCases.TC_002_My_Account_Login@61c9c3fd]" started-at="2024-12-09T11:07:00 IST" name="my_accountlogin" finished-at="2024-12-09T11:07:03 IST" duration-ms="3707" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- my_accountlogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_My_Account_Login@101639ae]" started-at="2024-12-08T20:56:38 IST" name="tearDown" finished-at="2024-12-08T20:56:38 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_My_Account_Login@61c9c3fd]" started-at="2024-12-09T11:07:03 IST" name="tearDown" finished-at="2024-12-09T11:07:04 IST" duration-ms="354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_002_My_Account_Login -->
-    </test> <!-- Linux-Chrome -->
+      <class name="testCases.TC_005_SearchProductTestDDT">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_005_SearchProductTestDDT@2c7b5824]" started-at="2024-12-09T11:08:27 IST" name="setup" finished-at="2024-12-09T11:08:34 IST" duration-ms="7606" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchproduct(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_005_SearchProductTestDDT@2c7b5824]" started-at="2024-12-09T11:08:38 IST" name="searchproduct" data-provider="Searchproduct" finished-at="2024-12-09T11:08:50 IST" duration-ms="12644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method signature="searchproduct(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_005_SearchProductTestDDT@2c7b5824]" started-at="2024-12-09T11:08:50 IST" name="searchproduct" data-provider="Searchproduct" finished-at="2024-12-09T11:08:52 IST" duration-ms="1391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dell]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method signature="searchproduct(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_005_SearchProductTestDDT@2c7b5824]" started-at="2024-12-09T11:08:52 IST" name="searchproduct" data-provider="Searchproduct" finished-at="2024-12-09T11:09:03 IST" duration-ms="11345" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MacBook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method signature="searchproduct(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_005_SearchProductTestDDT@2c7b5824]" started-at="2024-12-09T11:09:03 IST" name="searchproduct" data-provider="Searchproduct" finished-at="2024-12-09T11:09:15 IST" duration-ms="11543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method signature="searchproduct(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_005_SearchProductTestDDT@2c7b5824]" started-at="2024-12-09T11:09:15 IST" name="searchproduct" data-provider="Searchproduct" finished-at="2024-12-09T11:09:16 IST" duration-ms="1185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_005_SearchProductTestDDT@2c7b5824]" started-at="2024-12-09T11:09:16 IST" name="tearDown" finished-at="2024-12-09T11:09:16 IST" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_005_SearchProductTestDDT -->
+      <class name="testCases.TC_009_AddtoCartTest2">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_009_AddtoCartTest2@7e8dcdaa]" started-at="2024-12-09T11:09:45 IST" name="setup" finished-at="2024-12-09T11:09:49 IST" duration-ms="4072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Addtocarttest2()[pri:0, instance:testCases.TC_009_AddtoCartTest2@7e8dcdaa]" started-at="2024-12-09T11:09:49 IST" name="Addtocarttest2" finished-at="2024-12-09T11:09:52 IST" duration-ms="2523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addtocarttest2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_009_AddtoCartTest2@7e8dcdaa]" started-at="2024-12-09T11:09:52 IST" name="tearDown" finished-at="2024-12-09T11:09:52 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_009_AddtoCartTest2 -->
+      <class name="testCases.TC_007_ProductDisplayPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_007_ProductDisplayPageTest@5cdd09b1]" started-at="2024-12-09T11:09:27 IST" name="setup" finished-at="2024-12-09T11:09:33 IST" duration-ms="6038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ProductDisplayPage()[pri:0, instance:testCases.TC_007_ProductDisplayPageTest@5cdd09b1]" started-at="2024-12-09T11:09:33 IST" name="ProductDisplayPage" finished-at="2024-12-09T11:09:36 IST" duration-ms="3220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductDisplayPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_007_ProductDisplayPageTest@5cdd09b1]" started-at="2024-12-09T11:09:36 IST" name="tearDown" finished-at="2024-12-09T11:09:36 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_007_ProductDisplayPageTest -->
+      <class name="testCases.TC_013_Validate_ReviewOnProduct">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_013_Validate_ReviewOnProduct@4cf8b2dc]" started-at="2024-12-09T11:10:53 IST" name="setup" finished-at="2024-12-09T11:11:00 IST" duration-ms="6366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ReviewOnProduct()[pri:0, instance:testCases.TC_013_Validate_ReviewOnProduct@4cf8b2dc]" started-at="2024-12-09T11:11:00 IST" name="ReviewOnProduct" finished-at="2024-12-09T11:11:25 IST" duration-ms="25345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReviewOnProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_013_Validate_ReviewOnProduct@4cf8b2dc]" started-at="2024-12-09T11:11:25 IST" name="tearDown" finished-at="2024-12-09T11:11:26 IST" duration-ms="802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_013_Validate_ReviewOnProduct -->
+    </test> <!-- mytest1 -->
   </suite> <!-- mastersuite -->
 </testng-results>

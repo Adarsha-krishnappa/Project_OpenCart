@@ -20,7 +20,7 @@
             <class name="testCases.TC_003_LoginDataDrivenTest"></class>
             <class name="testCases.TC_004_ForgetPasswordTest"></class>
 			<class name="testCases.TC_005_SearchProductTestDDT"></class>
-			 <class name="testCases.TC_006_ProductCompareTest"></class>
+			<class name="testCases.TC_006_ProductCompareTest"></class>
 			<class name="testCases.TC_007_ProductDisplayPageTest"></class>
 			<class name="testCases.TC_008_AddtoCartTest1"></class>
 			<class name="testCases.TC_009_AddtoCartTest2"></class>
