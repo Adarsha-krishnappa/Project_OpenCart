@@ -47,6 +47,9 @@ public class MyAccount extends BasePage {
      @FindBy (xpath="//div[@class='alert alert-success alert-dismissible']")
      WebElement SuccessMsg;
      
+     @FindBy(xpath="//*[text()='Modify your address book entries']")
+     WebElement ModifyAddressLink;
+     
 	 public boolean isMyAccountPageExists()
 	 {
 		 try {
@@ -136,5 +139,10 @@ public class MyAccount extends BasePage {
 		 {
 			return(false); 
 		 }
+	 }
+	 
+	 public void ClickOnModifyAddressLink()
+	 {
+		 ModifyAddressLink.click();
 	 }
 }

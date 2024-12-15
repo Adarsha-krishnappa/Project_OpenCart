@@ -1,47 +1,195 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="2" failed="0" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-09T18:09:45 IST" name="mastersuite" finished-at="2024-12-09T18:10:50 IST" duration-ms="64820">
+  <suite started-at="2024-12-11T00:39:57 IST" name="mastersuite" finished-at="2024-12-11T00:46:03 IST" duration-ms="365776">
     <groups>
       <group name="regression">
-        <method signature="TC_001_AccountRegistrationTest.test_accountRegistration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@604c5de8]" name="test_accountRegistration" class="testCases.TC_001_AccountRegistrationTest"/>
-        <method signature="TC_016_Validate_EstimateShippingandTaxes_functionality.EstimateShippingAndTaxes()[pri:0, instance:testCases.TC_016_Validate_EstimateShippingandTaxes_functionality@57abad67]" name="EstimateShippingAndTaxes" class="testCases.TC_016_Validate_EstimateShippingandTaxes_functionality"/>
+        <method signature="TC_001_AccountRegistrationTest.test_accountRegistration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@13f95696]" name="test_accountRegistration" class="testCases.TC_001_AccountRegistrationTest"/>
+        <method signature="TC_002_My_Account_Login.my_accountlogin()[pri:0, instance:testCases.TC_002_My_Account_Login@32193bea]" name="my_accountlogin" class="testCases.TC_002_My_Account_Login"/>
+        <method signature="TC_001_AccountRegistrationTest.test_accountRegistration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@767e20cf]" name="test_accountRegistration" class="testCases.TC_001_AccountRegistrationTest"/>
+        <method signature="TC_002_My_Account_Login.my_accountlogin()[pri:0, instance:testCases.TC_002_My_Account_Login@3a3e78f]" name="my_accountlogin" class="testCases.TC_002_My_Account_Login"/>
       </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_002_My_Account_Login.my_accountlogin()[pri:0, instance:testCases.TC_002_My_Account_Login@32193bea]" name="my_accountlogin" class="testCases.TC_002_My_Account_Login"/>
+        <method signature="TC_002_My_Account_Login.my_accountlogin()[pri:0, instance:testCases.TC_002_My_Account_Login@3a3e78f]" name="my_accountlogin" class="testCases.TC_002_My_Account_Login"/>
+      </group> <!-- sanity -->
       <group name="master">
-        <method signature="TC_001_AccountRegistrationTest.test_accountRegistration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@604c5de8]" name="test_accountRegistration" class="testCases.TC_001_AccountRegistrationTest"/>
-        <method signature="TC_016_Validate_EstimateShippingandTaxes_functionality.EstimateShippingAndTaxes()[pri:0, instance:testCases.TC_016_Validate_EstimateShippingandTaxes_functionality@57abad67]" name="EstimateShippingAndTaxes" class="testCases.TC_016_Validate_EstimateShippingandTaxes_functionality"/>
+        <method signature="TC_001_AccountRegistrationTest.test_accountRegistration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@13f95696]" name="test_accountRegistration" class="testCases.TC_001_AccountRegistrationTest"/>
+        <method signature="TC_002_My_Account_Login.my_accountlogin()[pri:0, instance:testCases.TC_002_My_Account_Login@32193bea]" name="my_accountlogin" class="testCases.TC_002_My_Account_Login"/>
+        <method signature="TC_001_AccountRegistrationTest.test_accountRegistration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@767e20cf]" name="test_accountRegistration" class="testCases.TC_001_AccountRegistrationTest"/>
+        <method signature="TC_002_My_Account_Login.my_accountlogin()[pri:0, instance:testCases.TC_002_My_Account_Login@3a3e78f]" name="my_accountlogin" class="testCases.TC_002_My_Account_Login"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2024-12-09T18:09:45 IST" name="mytest1" finished-at="2024-12-09T18:10:50 IST" duration-ms="64820">
+    <test started-at="2024-12-11T00:39:57 IST" name="Linux-Firefox" finished-at="2024-12-11T00:44:24 IST" duration-ms="267417">
       <class name="testCases.TC_001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@604c5de8]" started-at="2024-12-09T18:09:47 IST" name="setup" finished-at="2024-12-09T18:10:09 IST" duration-ms="21552" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@767e20cf]" started-at="2024-12-11T00:39:58 IST" name="setup" finished-at="2024-12-11T00:43:00 IST" duration-ms="181821" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[windows]]>
+                <![CDATA[Linux]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-KK1SMTI', ip: '192.168.1.9']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-KK1SMTI', ip: '192.168.1.9'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:160)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
+at testBase.BaseClass.setup(BaseClass.java:82)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:423)
+at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+... 25 more
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2874)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+... 3 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_accountRegistration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@604c5de8]" started-at="2024-12-09T18:10:09 IST" name="test_accountRegistration" finished-at="2024-12-09T18:10:23 IST" duration-ms="13954" status="PASS">
+        <test-method signature="test_accountRegistration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@767e20cf]" started-at="2024-12-11T00:43:00 IST" name="test_accountRegistration" finished-at="2024-12-11T00:43:00 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-KK1SMTI', ip: '192.168.1.9']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-KK1SMTI', ip: '192.168.1.9'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:160)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
+at testBase.BaseClass.setup(BaseClass.java:82)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:423)
+at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+... 25 more
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2874)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+... 3 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_accountRegistration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@604c5de8]" started-at="2024-12-09T18:10:23 IST" name="tearDown" finished-at="2024-12-09T18:10:24 IST" duration-ms="978" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@767e20cf]" started-at="2024-12-11T00:43:00 IST" name="tearDown" finished-at="2024-12-11T00:43:00 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_001_AccountRegistrationTest -->
-      <class name="testCases.TC_016_Validate_EstimateShippingandTaxes_functionality">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_016_Validate_EstimateShippingandTaxes_functionality@57abad67]" started-at="2024-12-09T18:10:24 IST" name="setup" finished-at="2024-12-09T18:10:31 IST" duration-ms="6941" status="PASS">
+      <class name="testCases.TC_002_My_Account_Login">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_My_Account_Login@3a3e78f]" started-at="2024-12-11T00:43:00 IST" name="setup" finished-at="2024-12-11T00:44:14 IST" duration-ms="74188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="my_accountlogin()[pri:0, instance:testCases.TC_002_My_Account_Login@3a3e78f]" started-at="2024-12-11T00:44:14 IST" name="my_accountlogin" finished-at="2024-12-11T00:44:20 IST" duration-ms="5589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- my_accountlogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_My_Account_Login@3a3e78f]" started-at="2024-12-11T00:44:20 IST" name="tearDown" finished-at="2024-12-11T00:44:24 IST" duration-ms="4741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_002_My_Account_Login -->
+    </test> <!-- Linux-Firefox -->
+    <test started-at="2024-12-11T00:39:57 IST" name="Linux-Chrome" finished-at="2024-12-11T00:46:03 IST" duration-ms="365776">
+      <class name="testCases.TC_001_AccountRegistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationTest@13f95696]" started-at="2024-12-11T00:39:58 IST" name="setup" finished-at="2024-12-11T00:42:52 IST" duration-ms="174077" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,22 +198,160 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[windows]]>
+                <![CDATA[Linux]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="EstimateShippingAndTaxes()[pri:0, instance:testCases.TC_016_Validate_EstimateShippingandTaxes_functionality@57abad67]" started-at="2024-12-09T18:10:31 IST" name="EstimateShippingAndTaxes" finished-at="2024-12-09T18:10:49 IST" duration-ms="18379" status="PASS">
+        <test-method signature="test_accountRegistration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@13f95696]" started-at="2024-12-11T00:42:52 IST" name="test_accountRegistration" finished-at="2024-12-11T00:43:02 IST" duration-ms="10075" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- EstimateShippingAndTaxes -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_016_Validate_EstimateShippingandTaxes_functionality@57abad67]" started-at="2024-12-09T18:10:49 IST" name="tearDown" finished-at="2024-12-09T18:10:50 IST" duration-ms="347" status="PASS">
+        </test-method> <!-- test_accountRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@13f95696]" started-at="2024-12-11T00:43:02 IST" name="tearDown" finished-at="2024-12-11T00:43:02 IST" duration-ms="333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_016_Validate_EstimateShippingandTaxes_functionality -->
-    </test> <!-- mytest1 -->
+      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
+      <class name="testCases.TC_002_My_Account_Login">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_My_Account_Login@32193bea]" started-at="2024-12-11T00:43:02 IST" name="setup" finished-at="2024-12-11T00:46:02 IST" duration-ms="180173" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-KK1SMTI', ip: '192.168.1.9']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-KK1SMTI', ip: '192.168.1.9'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:160)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
+at testBase.BaseClass.setup(BaseClass.java:82)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:423)
+at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+... 25 more
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2874)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+... 3 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="my_accountlogin()[pri:0, instance:testCases.TC_002_My_Account_Login@32193bea]" started-at="2024-12-11T00:46:03 IST" name="my_accountlogin" finished-at="2024-12-11T00:46:03 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-KK1SMTI', ip: '192.168.1.9']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-KK1SMTI', ip: '192.168.1.9'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:160)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
+at testBase.BaseClass.setup(BaseClass.java:82)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:423)
+at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+... 25 more
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2874)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+... 3 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- my_accountlogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_My_Account_Login@32193bea]" started-at="2024-12-11T00:46:03 IST" name="tearDown" finished-at="2024-12-11T00:46:03 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_002_My_Account_Login -->
+    </test> <!-- Linux-Chrome -->
   </suite> <!-- mastersuite -->
 </testng-results>

@@ -13,13 +13,13 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC_016_Validate_EstimateShippingandTaxes_functionality">
+      <class name="testCases.TC_017_Validate_AddNew_Address">
         <methods>
           <include name="tearDown"/>
-          <include name="EstimateShippingAndTaxes"/>
           <include name="setup"/>
+          <include name="AddAddress"/>
         </methods>
-      </class> <!-- testCases.TC_016_Validate_EstimateShippingandTaxes_functionality -->
+      </class> <!-- testCases.TC_017_Validate_AddNew_Address -->
     </classes>
   </test> <!-- mytest(failed) -->
 </suite> <!-- Failed suite [mysuite] -->
