@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>mytest1</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>28/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Dec 08 16:26:42 IST 2024</td>
+<td>Started on:</td><td>Tue Jun 17 22:01:09 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>411 seconds (411150 ms)</td>
+<tr><td>Total time:</td><td>185 seconds (185196 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -68,7 +68,7 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -76,94 +76,43 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.TC_011_Validate_Shopping_Cart_page.Validate_ShopingCartPage()'><b>Validate_ShopingCartPage</b><br>Test class: testCases.TC_011_Validate_Shopping_Cart_page</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at testCases.TC_011_Validate_Shopping_Cart_page.Validate_ShopingCartPage(TC_011_Validate_Shopping_Cart_page.java:42)
+<td title='testCases.TC_001_AccountRegistrationTest.setup()'><b>setup</b><br>Test class: testCases.TC_001_AccountRegistrationTest<br>Parameters: chrome, Windows</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;testBase.BaseClass.driver&quot; is null
+	at testBase.BaseClass.setup(BaseClass.java:101)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1869116781", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1869116781'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at testCases.TC_011_Validate_Shopping_Cart_page.Validate_ShopingCartPage(TC_011_Validate_Shopping_Cart_page.java:42)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1607037678", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1607037678'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;testBase.BaseClass.driver&quot; is null
+	at testBase.BaseClass.setup(BaseClass.java:101)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.testng.TestRunner.privateRun(TestRunner.java:848)
 	at org.testng.TestRunner.run(TestRunner.java:621)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
 </pre></div></td>
-<td>13</td>
-<td>testCases.TC_011_Validate_Shopping_Cart_page@60975100</td></tr>
-<tr>
-<td title='testCases.TC_003_LoginDataDrivenTest.verifytest()'><b>verifytest</b><br>Test class: testCases.TC_003_LoginDataDrivenTest<br>Parameters: pavanoltraining@gmail.com, test@123, Valid</td>
-<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
-	at testCases.TC_003_LoginDataDrivenTest.verifytest(TC_003_LoginDataDrivenTest.java:41)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1924999281", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1924999281'><pre>java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at org.testng.Assert.assertTrue(Assert.java:67)
-	at testCases.TC_003_LoginDataDrivenTest.verifytest(TC_003_LoginDataDrivenTest.java:41)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>13</td>
-<td>testCases.TC_003_LoginDataDrivenTest@fcb4004</td></tr>
+<td>182</td>
+<td>testCases.TC_001_AccountRegistrationTest@8692d67</td></tr>
 </table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -171,145 +120,54 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.TC_014_Validate_CouponCode_Functionality.CouponCode_Functionality()'><b>CouponCode_Functionality</b><br>Test class: testCases.TC_014_Validate_CouponCode_Functionality</td>
+<td title='testCases.TC_001_AccountRegistrationTest.tearDown()'><b>tearDown</b><br>Test class: testCases.TC_001_AccountRegistrationTest</td>
 <td></td>
-<td>11</td>
-<td>testCases.TC_014_Validate_CouponCode_Functionality@61c9c3fd</td></tr>
-<tr>
-<td title='testCases.TC_005_SearchProductTestDDT.searchproduct()'><b>searchproduct</b><br>Test class: testCases.TC_005_SearchProductTestDDT<br>Parameters: abcd, Invalid</td>
-<td></td>
-<td>1</td>
-<td>testCases.TC_005_SearchProductTestDDT@56e8b606</td></tr>
-<tr>
-<td title='testCases.TC_006_ProductCompareTest.CompareProduct()'><b>CompareProduct</b><br>Test class: testCases.TC_006_ProductCompareTest<br>Parameters: iPhone, Valid</td>
-<td></td>
-<td>2</td>
-<td>testCases.TC_006_ProductCompareTest@2dd29a59</td></tr>
+<td>0</td>
+<td>testCases.TC_001_AccountRegistrationTest@8692d67</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
 <td title='testCases.TC_001_AccountRegistrationTest.test_accountRegistration()'><b>test_accountRegistration</b><br>Test class: testCases.TC_001_AccountRegistrationTest</td>
-<td></td>
-<td>12</td>
-<td>testCases.TC_001_AccountRegistrationTest@3d97a632</td></tr>
-<tr>
-<td title='testCases.TC_005_SearchProductTestDDT.searchproduct()'><b>searchproduct</b><br>Test class: testCases.TC_005_SearchProductTestDDT<br>Parameters: mac, Valid</td>
-<td></td>
-<td>11</td>
-<td>testCases.TC_005_SearchProductTestDDT@56e8b606</td></tr>
-<tr>
-<td title='testCases.TC_012_Validate_Updating_UserDeatils.Updating_UserDeatils()'><b>Updating_UserDeatils</b><br>Test class: testCases.TC_012_Validate_Updating_UserDeatils</td>
-<td></td>
-<td>31</td>
-<td>testCases.TC_012_Validate_Updating_UserDeatils@1253e7cb</td></tr>
-<tr>
-<td title='testCases.TC_005_SearchProductTestDDT.searchproduct()'><b>searchproduct</b><br>Test class: testCases.TC_005_SearchProductTestDDT<br>Parameters: MacBook, Valid</td>
-<td></td>
-<td>10</td>
-<td>testCases.TC_005_SearchProductTestDDT@56e8b606</td></tr>
-<tr>
-<td title='testCases.TC_003_LoginDataDrivenTest.verifytest()'><b>verifytest</b><br>Test class: testCases.TC_003_LoginDataDrivenTest<br>Parameters: , , </td>
-<td></td>
-<td>11</td>
-<td>testCases.TC_003_LoginDataDrivenTest@fcb4004</td></tr>
-<tr>
-<td title='testCases.TC_007_ProductDisplayPageTest.ProductDisplayPage()'><b>ProductDisplayPage</b><br>Test class: testCases.TC_007_ProductDisplayPageTest</td>
-<td></td>
-<td>3</td>
-<td>testCases.TC_007_ProductDisplayPageTest@784c3487</td></tr>
-<tr>
-<td title='testCases.TC_006_ProductCompareTest.CompareProduct()'><b>CompareProduct</b><br>Test class: testCases.TC_006_ProductCompareTest<br>Parameters: iMac, Valid</td>
-<td></td>
-<td>4</td>
-<td>testCases.TC_006_ProductCompareTest@2dd29a59</td></tr>
-<tr>
-<td title='testCases.TC_008_AddtoCartTest1.AddtoCartTest1()'><b>AddtoCartTest1</b><br>Test class: testCases.TC_008_AddtoCartTest1</td>
-<td></td>
-<td>1</td>
-<td>testCases.TC_008_AddtoCartTest1@53142455</td></tr>
-<tr>
-<td title='testCases.TC_003_LoginDataDrivenTest.verifytest()'><b>verifytest</b><br>Test class: testCases.TC_003_LoginDataDrivenTest<br>Parameters: abc123@gmail.com, test@123, Valid</td>
-<td></td>
-<td>2</td>
-<td>testCases.TC_003_LoginDataDrivenTest@fcb4004</td></tr>
-<tr>
-<td title='testCases.TC_005_SearchProductTestDDT.searchproduct()'><b>searchproduct</b><br>Test class: testCases.TC_005_SearchProductTestDDT<br>Parameters: dell, Invalid</td>
-<td></td>
-<td>1</td>
-<td>testCases.TC_005_SearchProductTestDDT@56e8b606</td></tr>
-<tr>
-<td title='testCases.TC_013_Validate_ReviewOnProduct.ReviewOnProduct()'><b>ReviewOnProduct</b><br>Test class: testCases.TC_013_Validate_ReviewOnProduct</td>
-<td></td>
-<td>24</td>
-<td>testCases.TC_013_Validate_ReviewOnProduct@2d36e77e</td></tr>
-<tr>
-<td title='testCases.TC_003_LoginDataDrivenTest.verifytest()'><b>verifytest</b><br>Test class: testCases.TC_003_LoginDataDrivenTest<br>Parameters: lakshmi@yahoo.com, Laxmi, Valid</td>
-<td></td>
-<td>3</td>
-<td>testCases.TC_003_LoginDataDrivenTest@fcb4004</td></tr>
-<tr>
-<td title='testCases.TC_010_AddtoWishListTestDDT.addtoWishListTest()'><b>addtoWishListTest</b><br>Test class: testCases.TC_010_AddtoWishListTestDDT<br>Parameters: Iphone, Valid</td>
-<td></td>
-<td>5</td>
-<td>testCases.TC_010_AddtoWishListTestDDT@7966baa7</td></tr>
-<tr>
-<td title='testCases.TC_010_AddtoWishListTestDDT.addtoWishListTest()'><b>addtoWishListTest</b><br>Test class: testCases.TC_010_AddtoWishListTestDDT<br>Parameters: iMac, Valid</td>
-<td></td>
-<td>5</td>
-<td>testCases.TC_010_AddtoWishListTestDDT@7966baa7</td></tr>
-<tr>
-<td title='testCases.TC_009_AddtoCartTest2.Addtocarttest2()'><b>Addtocarttest2</b><br>Test class: testCases.TC_009_AddtoCartTest2</td>
-<td></td>
-<td>2</td>
-<td>testCases.TC_009_AddtoCartTest2@40dff0b7</td></tr>
-<tr>
-<td title='testCases.TC_006_ProductCompareTest.CompareProduct()'><b>CompareProduct</b><br>Test class: testCases.TC_006_ProductCompareTest<br>Parameters: MacBook, Valid</td>
-<td></td>
-<td>3</td>
-<td>testCases.TC_006_ProductCompareTest@2dd29a59</td></tr>
-<tr>
-<td title='testCases.TC_003_LoginDataDrivenTest.verifytest()'><b>verifytest</b><br>Test class: testCases.TC_003_LoginDataDrivenTest<br>Parameters: , , </td>
-<td></td>
-<td>11</td>
-<td>testCases.TC_003_LoginDataDrivenTest@fcb4004</td></tr>
-<tr>
-<td title='testCases.TC_015_Validate_GiftCertificate_Functionality.GiftCertficate()'><b>GiftCertficate</b><br>Test class: testCases.TC_015_Validate_GiftCertificate_Functionality</td>
-<td></td>
-<td>16</td>
-<td>testCases.TC_015_Validate_GiftCertificate_Functionality@3b0c9195</td></tr>
-<tr>
-<td title='testCases.TC_003_LoginDataDrivenTest.verifytest()'><b>verifytest</b><br>Test class: testCases.TC_003_LoginDataDrivenTest<br>Parameters: laksh@yahoo.com, Lakshmi, Valid</td>
-<td></td>
-<td>2</td>
-<td>testCases.TC_003_LoginDataDrivenTest@fcb4004</td></tr>
-<tr>
-<td title='testCases.TC_004_ForgetPasswordTest.forgetpassword()'><b>forgetpassword</b><br>Test class: testCases.TC_004_ForgetPasswordTest</td>
-<td></td>
-<td>4</td>
-<td>testCases.TC_004_ForgetPasswordTest@1dd6d4b7</td></tr>
-<tr>
-<td title='testCases.TC_003_LoginDataDrivenTest.verifytest()'><b>verifytest</b><br>Test class: testCases.TC_003_LoginDataDrivenTest<br>Parameters: laks@yahoo.com, xyz, Invalid</td>
-<td></td>
-<td>11</td>
-<td>testCases.TC_003_LoginDataDrivenTest@fcb4004</td></tr>
-<tr>
-<td title='testCases.TC_002_My_Account_Login.my_accountlogin()'><b>my_accountlogin</b><br>Test class: testCases.TC_002_My_Account_Login</td>
-<td></td>
-<td>5</td>
-<td>testCases.TC_002_My_Account_Login@293a5f75</td></tr>
-<tr>
-<td title='testCases.TC_010_AddtoWishListTestDDT.addtoWishListTest()'><b>addtoWishListTest</b><br>Test class: testCases.TC_010_AddtoWishListTestDDT<br>Parameters: Samsung SyncMaster 941BW, Valid</td>
-<td></td>
-<td>4</td>
-<td>testCases.TC_010_AddtoWishListTestDDT@7966baa7</td></tr>
-<tr>
-<td title='testCases.TC_005_SearchProductTestDDT.searchproduct()'><b>searchproduct</b><br>Test class: testCases.TC_005_SearchProductTestDDT<br>Parameters: samsung, Valid</td>
-<td></td>
-<td>11</td>
-<td>testCases.TC_005_SearchProductTestDDT@56e8b606</td></tr>
-<tr>
-<td title='testCases.TC_016_Validate_EstimateShippingandTaxes_functionality.EstimateShippingAndTaxes()'><b>EstimateShippingAndTaxes</b><br>Test class: testCases.TC_016_Validate_EstimateShippingandTaxes_functionality</td>
-<td></td>
-<td>20</td>
-<td>testCases.TC_016_Validate_EstimateShippingandTaxes_functionality@366c4480</td></tr>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;testBase.BaseClass.driver&quot; is null
+	at testBase.BaseClass.setup(BaseClass.java:101)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1060894303", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1060894303'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;testBase.BaseClass.driver&quot; is null
+	at testBase.BaseClass.setup(BaseClass.java:101)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>0</td>
+<td>testCases.TC_001_AccountRegistrationTest@8692d67</td></tr>
 </table><p>
 </body>
 </html>

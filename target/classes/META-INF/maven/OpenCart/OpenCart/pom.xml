@@ -23,7 +23,7 @@
 		          <configuration>
 					  <argLine>--add-exports=jdk.internal.le/jdk.internal.org.jline.utils=ALL-UNNAMED</argLine>
 					  <suiteXmlFiles>						  
-						   <suiteXmlFile>grid-docker.xml</suiteXmlFile>
+						   <suiteXmlFile>master.xml</suiteXmlFile>
 					  </suiteXmlFiles>
 				  </configuration>
        		 </plugin>

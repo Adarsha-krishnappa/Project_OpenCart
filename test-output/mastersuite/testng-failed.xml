@@ -14,13 +14,13 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC_003_LoginDataDrivenTest">
+      <class name="testCases.TC_001_AccountRegistrationTest">
         <methods>
           <include name="tearDown"/>
+          <include name="test_accountRegistration"/>
           <include name="setup"/>
-          <include name="verifytest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- testCases.TC_003_LoginDataDrivenTest -->
+      </class> <!-- testCases.TC_001_AccountRegistrationTest -->
     </classes>
   </test> <!-- mytest1(failed) -->
 </suite> <!-- Failed suite [mastersuite] -->

@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,8 +38,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-mysuite" class="navigator-link">
-              <span class="suite-name border-failed">mysuite</span>
+            <a href="#" panel-name="suite-mastersuite" class="navigator-link">
+              <span class="suite-name border-skipped">mastersuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,37 +49,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-mysuite" class="navigator-link ">
-                    <span>C:\Users\DELL\eclips-workspace 2023\OpenCart\mywork.xml</span>
+                  <a href="#" panel-name="test-xml-mastersuite" class="navigator-link ">
+                    <span>C:\Users\DELL\eclips-workspace 2023\OpenCart\master.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-mysuite" class="navigator-link ">
+                  <a href="#" panel-name="testlist-mastersuite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-mysuite" class="navigator-link ">
+                  <a href="#" panel-name="group-mastersuite" class="navigator-link ">
                     <span>2 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-mysuite" class="navigator-link ">
+                  <a href="#" panel-name="times-mastersuite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-mysuite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-mastersuite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-mysuite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-mastersuite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-mysuite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-mastersuite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -92,21 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">1 method,  1 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-mysuite" class="hide-methods failed suite-mysuite"> (hide)</a> <!-- hide-methods failed suite-mysuite -->
-                      <a href="#" panel-name="suite-mysuite" class="show-methods failed suite-mysuite"> (show)</a> <!-- show-methods failed suite-mysuite -->
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-mastersuite" class="hide-methods skipped suite-mastersuite"> (hide)</a> <!-- hide-methods skipped suite-mastersuite -->
+                      <a href="#" panel-name="suite-mastersuite" class="show-methods skipped suite-mastersuite"> (show)</a> <!-- show-methods skipped suite-mastersuite -->
                     </span>
-                    <div class="method-list-content failed suite-mysuite">
+                    <div class="method-list-content skipped suite-mastersuite">
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-mysuite" title="testCases.TC_017_Validate_AddNew_Address" class="method navigator-link" hash-for-method="AddAddress">AddAddress</a> <!-- method navigator-link -->
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-mastersuite" title="testCases.TC_001_AccountRegistrationTest" class="method navigator-link" hash-for-method="test_accountRegistration">test_accountRegistration</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-mysuite -->
+                    </div> <!-- method-list-content skipped suite-mastersuite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,78 +117,105 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-mysuite" class="panel mysuite">
-          <div class="suite-mysuite-class-failed">
+        <div panel-name="suite-mastersuite" class="panel mastersuite">
+          <div class="suite-mastersuite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testCases.TC_017_Validate_AddNew_Address</span>
+              <img src="skipped.png"/>
+              <span class="class-name">testCases.TC_001_AccountRegistrationTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="AddAddress">
-                  </a> <!-- AddAddress -->
-                  <span class="method-name">AddAddress</span>
-                  <div class="stack-trace">java.lang.IllegalAccessError: class testCases.TC_017_Validate_AddNew_Address (in unnamed module @0x18769467) cannot access class com.sun.tools.sjavac.Log (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.sjavac to unnamed module @0x18769467
-	at testCases.TC_017_Validate_AddNew_Address.AddAddress(TC_017_Validate_AddNew_Address.java:66)
+                  <a name="test_accountRegistration">
+                  </a> <!-- test_accountRegistration -->
+                  <span class="method-name">test_accountRegistration</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-KK1SMTI&apos;, ip: &apos;192.168.1.9&apos;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
+	at testBase.BaseClass.setup(BaseClass.java:82)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:423)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	... 30 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2874)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 25 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-mysuite-class-failed -->
-        </div> <!-- panel mysuite -->
-        <div panel-name="test-xml-mysuite" class="panel">
+          </div> <!-- suite-mastersuite-class-skipped -->
+        </div> <!-- panel mastersuite -->
+        <div panel-name="test-xml-mastersuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\DELL\eclips-workspace 2023\OpenCart\mywork.xml</span>
+            <span class="header-content">C:\Users\DELL\eclips-workspace 2023\OpenCart\master.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;mysuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+&lt;suite name=&quot;mastersuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;utilities.ExtentReportManager&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;mytest&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;mytest1&quot;&gt;
     &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;groups&gt;
       &lt;run&gt;
         &lt;include name=&quot;regression&quot;/&gt;
+        &lt;exclude name=&quot;mytest&quot;/&gt;
       &lt;/run&gt;
     &lt;/groups&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCases.TC_017_Validate_AddNew_Address&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_001_AccountRegistrationTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- mytest --&gt;
-&lt;/suite&gt; &lt;!-- mysuite --&gt;
+  &lt;/test&gt; &lt;!-- mytest1 --&gt;
+&lt;/suite&gt; &lt;!-- mastersuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-mysuite" class="panel">
+        <div panel-name="testlist-mastersuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for mysuite</span>
+            <span class="header-content">Tests for mastersuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">mytest (1 class)</span>
+                <span class="test-name">mytest1 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-mysuite" class="panel">
+        <div panel-name="group-mastersuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for mysuite</span>
+            <span class="header-content">Groups for mastersuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
               <span class="test-group-name">master</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">AddAddress</span>
+                <span class="method-in-group-name">test_accountRegistration</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -196,21 +223,21 @@
               <span class="test-group-name">regression</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">AddAddress</span>
+                <span class="method-in-group-name">test_accountRegistration</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-mysuite" class="panel">
+        <div panel-name="times-mastersuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for mysuite</span>
+            <span class="header-content">Times for mastersuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_mysuite');
-function tableData_mysuite() {
+suiteTableInitFunctions.push('tableData_mastersuite');
+function tableData_mastersuite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
@@ -218,54 +245,46 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'AddAddress')
-data.setCell(0, 2, 'testCases.TC_017_Validate_AddNew_Address')
-data.setCell(0, 3, 9516);
-window.suiteTableData['mysuite']= { tableData: data, tableDiv: 'times-div-mysuite'}
+data.setCell(0, 1, 'test_accountRegistration')
+data.setCell(0, 2, 'testCases.TC_001_AccountRegistrationTest')
+data.setCell(0, 3, 1);
+window.suiteTableData['mastersuite']= { tableData: data, tableDiv: 'times-div-mastersuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
-              <div id="times-div-mysuite">
-              </div> <!-- times-div-mysuite -->
+              <span class="suite-total-time">Total running time: 1 ms</span>
+              <div id="times-div-mastersuite">
+              </div> <!-- times-div-mastersuite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-mysuite" class="panel">
+        <div panel-name="reporter-mastersuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for mysuite</span>
+            <span class="header-content">Reporter output for mastersuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-mysuite" class="panel">
+        <div panel-name="ignored-methods-mastersuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-mysuite" class="panel">
+        <div panel-name="chronological-mastersuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC_017_Validate_AddNew_Address</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.TC_001_AccountRegistrationTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setup(chrome, windows)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">AddAddress</span>
-                <span class="method-start">8224 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">18238 ms</span>
-              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

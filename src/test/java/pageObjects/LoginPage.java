@@ -14,7 +14,7 @@ public class LoginPage extends BasePage {
 	
 
 @FindBy(xpath = "//input[@id='input-email']")
-WebElement txtEmailAddress;
+private WebElement txtEmailAddress;
 
 @FindBy(xpath = "//input[@id='input-password']")
 WebElement txtPassword;
