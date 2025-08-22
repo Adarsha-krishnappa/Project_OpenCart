@@ -15,7 +15,7 @@ public class AccountinformationPage extends BasePage{
 	
 	
 	@FindBy(xpath="//*[@id='input-firstname']")
-	WebElement txtFirstName;
+	private WebElement txtFirstName;
 	
 	@FindBy(xpath="//*[@id='input-lastname']")
 	WebElement txtLastName;

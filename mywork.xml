@@ -26,8 +26,10 @@
 		    <class name="testCases.TC_013_Validate_ReviewOnProduct"></class>
 		    <class name="testCases.TC_014_Validate_CouponCode_Functionality"></class>
 		    <class name="testCases.TC_015_Validate_GiftCertificate_Functionality"></class>
-		    <class name="testCases.TC_016_Validate_EstimateShippingandTaxes_functionality"></class>-->
+		    <class name="testCases.TC_016_Validate_EstimateShippingandTaxes_functionality"></class>
 		    <class name="testCases.TC_017_Validate_AddNew_Address"></class>
+		    <class name="testCases.TC_018_Validate_Product_Deatils_Brand_Name_Code"></class>-->
+		    <class name="testCases.TC_003_LoginDataDrivenTest"></class>
 		   
 		    
 		</classes>

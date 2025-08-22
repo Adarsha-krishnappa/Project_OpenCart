@@ -40,6 +40,15 @@ public class ProductPage extends BasePage {
 	@FindBy(xpath="//a[text()='Reviews (0)']")
 	WebElement ReviewBtn;
 	
+	@FindBy (xpath="//*[@class='product-thumb'][1]/div[1]/a")
+	private WebElement FirstProduct; 
+	
+	@FindBy (xpath="(//*[@class='list-unstyled']/li[1]/a)[8]")
+	private WebElement BrandName;
+	
+	@FindBy (xpath="//li[contains(text(),'Product Code')]")
+	private WebElement ProductCode;
+	
 	
 	
 	public String randomeStringName()
@@ -92,6 +101,33 @@ public class ProductPage extends BasePage {
 	public void ClickShoppingcartLink()
 	{
 		ShoppingCartLink.click();
+	}
+	
+	public void Click_OnFirst_Product()
+	{
+		FirstProduct.click();
+	}
+	
+	public String GetBrandName()
+	{
+		try{
+			return(BrandName.getText());
+		}
+		catch(Exception e)
+		{
+         return(e.getMessage());
+		}
+	}
+	
+	public String GetProductCode()
+	{
+		try {
+		return(ProductCode.getText());
+		}
+		catch(Exception e)
+		{
+			return(e.getMessage());
+		}
 	}
 	
 	

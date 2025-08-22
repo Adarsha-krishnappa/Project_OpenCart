@@ -22,7 +22,7 @@ public class DataProviders {
 				
 		String logindata[][]=new String[totalrows][totalcols];//created for two dimension array which can store the data user and password
 		
-		for(int i=1;i<=totalrows;i++)  //1   //read the data from xl storing in two deminsional array
+		for(int i=1;i<=totalrows;i++)  //1   //read the data from xl storing in two deminsional array bcsz first row always headers
 		{		
 			for(int j=0;j<totalcols;j++)  //0    i is rows j is col
 			{

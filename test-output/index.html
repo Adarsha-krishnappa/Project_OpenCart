@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,8 +38,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-mastersuite" class="navigator-link">
-              <span class="suite-name border-skipped">mastersuite</span>
+            <a href="#" panel-name="suite-mysuite" class="navigator-link">
+              <span class="suite-name border-failed">mysuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,37 +49,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-mastersuite" class="navigator-link ">
-                    <span>C:\Users\DELL\eclips-workspace 2023\OpenCart\master.xml</span>
+                  <a href="#" panel-name="test-xml-mysuite" class="navigator-link ">
+                    <span>C:\Users\DELL\eclips-workspace 2023\OpenCart\mywork.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-mastersuite" class="navigator-link ">
+                  <a href="#" panel-name="testlist-mysuite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-mastersuite" class="navigator-link ">
-                    <span>2 groups</span>
+                  <a href="#" panel-name="group-mysuite" class="navigator-link ">
+                    <span>4 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-mastersuite" class="navigator-link ">
+                  <a href="#" panel-name="times-mysuite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-mastersuite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-mysuite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-mastersuite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-mysuite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-mastersuite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-mysuite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -92,21 +92,60 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,  1 skipped,  </span>
+                    <span class="method-stats">7 methods, 1 failed,   6 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-mastersuite" class="hide-methods skipped suite-mastersuite"> (hide)</a> <!-- hide-methods skipped suite-mastersuite -->
-                      <a href="#" panel-name="suite-mastersuite" class="show-methods skipped suite-mastersuite"> (show)</a> <!-- show-methods skipped suite-mastersuite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-mysuite" class="hide-methods failed suite-mysuite"> (hide)</a> <!-- hide-methods failed suite-mysuite -->
+                      <a href="#" panel-name="suite-mysuite" class="show-methods failed suite-mysuite"> (show)</a> <!-- show-methods failed suite-mysuite -->
                     </span>
-                    <div class="method-list-content skipped suite-mastersuite">
+                    <div class="method-list-content failed suite-mysuite">
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-mastersuite" title="testCases.TC_001_AccountRegistrationTest" class="method navigator-link" hash-for-method="test_accountRegistration">test_accountRegistration</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuite" title="testCases.TC_003_LoginDataDrivenTest" class="method navigator-link" hash-for-method="verifytest(pavanoltraining@gmail.com, test@123, Valid)">verifytest(pavanoltraining@gmail.com, test@123, Valid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-mastersuite -->
+                    </div> <!-- method-list-content failed suite-mysuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-mysuite" class="hide-methods passed suite-mysuite"> (hide)</a> <!-- hide-methods passed suite-mysuite -->
+                      <a href="#" panel-name="suite-mysuite" class="show-methods passed suite-mysuite"> (show)</a> <!-- show-methods passed suite-mysuite -->
+                    </span>
+                    <div class="method-list-content passed suite-mysuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuite" title="testCases.TC_003_LoginDataDrivenTest" class="method navigator-link" hash-for-method="verifytest(, , )">verifytest(, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuite" title="testCases.TC_003_LoginDataDrivenTest" class="method navigator-link" hash-for-method="verifytest(laksh@yahoo.com, Lakshmi, Valid)">verifytest(laksh@yahoo.com, Lakshmi, Valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuite" title="testCases.TC_003_LoginDataDrivenTest" class="method navigator-link" hash-for-method="verifytest(lakshmi@yahoo.com, Laxmi, Valid)">verifytest(lakshmi@yahoo.com, Laxmi, Valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuite" title="testCases.TC_003_LoginDataDrivenTest" class="method navigator-link" hash-for-method="verifytest(, , )">verifytest(, , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuite" title="testCases.TC_003_LoginDataDrivenTest" class="method navigator-link" hash-for-method="verifytest(laks@yahoo.com, xyz, Invalid)">verifytest(laks@yahoo.com, xyz, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuite" title="testCases.TC_003_LoginDataDrivenTest" class="method navigator-link" hash-for-method="verifytest(abc123@gmail.com, test@123, Valid)">verifytest(abc123@gmail.com, test@123, Valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-mysuite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,105 +156,143 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-mastersuite" class="panel mastersuite">
-          <div class="suite-mastersuite-class-skipped">
+        <div panel-name="suite-mysuite" class="panel mysuite">
+          <div class="suite-mysuite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">testCases.TC_001_AccountRegistrationTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TC_003_LoginDataDrivenTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test_accountRegistration">
-                  </a> <!-- test_accountRegistration -->
-                  <span class="method-name">test_accountRegistration</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: &apos;DESKTOP-KK1SMTI&apos;, ip: &apos;192.168.1.9&apos;
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:563)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:152)
-	at testBase.BaseClass.setup(BaseClass.java:82)
+                  <a name="verifytest(pavanoltraining@gmail.com, test@123, Valid)">
+                  </a> <!-- verifytest(pavanoltraining@gmail.com, test@123, Valid) -->
+                  <span class="method-name">verifytest</span>
+                  <span class="parameters">(pavanoltraining@gmail.com,test@123,Valid)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testCases.TC_003_LoginDataDrivenTest.verifytest(TC_003_LoginDataDrivenTest.java:41)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:423)
-	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	... 30 more
-Caused by: java.util.concurrent.TimeoutException
-	at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2874)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 25 stack frames
+... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-mastersuite-class-skipped -->
-        </div> <!-- panel mastersuite -->
-        <div panel-name="test-xml-mastersuite" class="panel">
+          </div> <!-- suite-mysuite-class-failed -->
+          <div class="suite-mysuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC_003_LoginDataDrivenTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifytest(, , )">
+                  </a> <!-- verifytest(, , ) -->
+                  <span class="method-name">verifytest</span>
+                  <span class="parameters">(,,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifytest(laksh@yahoo.com, Lakshmi, Valid)">
+                  </a> <!-- verifytest(laksh@yahoo.com, Lakshmi, Valid) -->
+                  <span class="method-name">verifytest</span>
+                  <span class="parameters">(laksh@yahoo.com,Lakshmi,Valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifytest(lakshmi@yahoo.com, Laxmi, Valid)">
+                  </a> <!-- verifytest(lakshmi@yahoo.com, Laxmi, Valid) -->
+                  <span class="method-name">verifytest</span>
+                  <span class="parameters">(lakshmi@yahoo.com,Laxmi,Valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifytest(, , )">
+                  </a> <!-- verifytest(, , ) -->
+                  <span class="method-name">verifytest</span>
+                  <span class="parameters">(,,)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifytest(laks@yahoo.com, xyz, Invalid)">
+                  </a> <!-- verifytest(laks@yahoo.com, xyz, Invalid) -->
+                  <span class="method-name">verifytest</span>
+                  <span class="parameters">(laks@yahoo.com,xyz,Invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifytest(abc123@gmail.com, test@123, Valid)">
+                  </a> <!-- verifytest(abc123@gmail.com, test@123, Valid) -->
+                  <span class="method-name">verifytest</span>
+                  <span class="parameters">(abc123@gmail.com,test@123,Valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-mysuite-class-passed -->
+        </div> <!-- panel mysuite -->
+        <div panel-name="test-xml-mysuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\DELL\eclips-workspace 2023\OpenCart\master.xml</span>
+            <span class="header-content">C:\Users\DELL\eclips-workspace 2023\OpenCart\mywork.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;mastersuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+&lt;suite name=&quot;mysuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;utilities.ExtentReportManager&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;mytest1&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;mytest&quot;&gt;
     &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;groups&gt;
       &lt;run&gt;
         &lt;include name=&quot;regression&quot;/&gt;
-        &lt;exclude name=&quot;mytest&quot;/&gt;
       &lt;/run&gt;
     &lt;/groups&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCases.TC_001_AccountRegistrationTest&quot;/&gt;
+      &lt;class name=&quot;testCases.TC_003_LoginDataDrivenTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- mytest1 --&gt;
-&lt;/suite&gt; &lt;!-- mastersuite --&gt;
+  &lt;/test&gt; &lt;!-- mytest --&gt;
+&lt;/suite&gt; &lt;!-- mysuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-mastersuite" class="panel">
+        <div panel-name="testlist-mysuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for mastersuite</span>
+            <span class="header-content">Tests for mysuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">mytest1 (1 class)</span>
+                <span class="test-name">mytest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-mastersuite" class="panel">
+        <div panel-name="group-mysuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for mastersuite</span>
+            <span class="header-content">Groups for mysuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Datadriven</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifytest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
             <div class="test-group">
               <span class="test-group-name">master</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">test_accountRegistration</span>
+                <span class="method-in-group-name">verifytest</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -223,68 +300,132 @@ Caused by: java.util.concurrent.TimeoutException
               <span class="test-group-name">regression</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">test_accountRegistration</span>
+                <span class="method-in-group-name">verifytest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifytest</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-mastersuite" class="panel">
+        <div panel-name="times-mysuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for mastersuite</span>
+            <span class="header-content">Times for mysuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_mastersuite');
-function tableData_mastersuite() {
+suiteTableInitFunctions.push('tableData_mysuite');
+function tableData_mysuite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test_accountRegistration')
-data.setCell(0, 2, 'testCases.TC_001_AccountRegistrationTest')
-data.setCell(0, 3, 1);
-window.suiteTableData['mastersuite']= { tableData: data, tableDiv: 'times-div-mastersuite'}
+data.setCell(0, 1, 'verifytest')
+data.setCell(0, 2, 'testCases.TC_003_LoginDataDrivenTest')
+data.setCell(0, 3, 12400);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifytest')
+data.setCell(1, 2, 'testCases.TC_003_LoginDataDrivenTest')
+data.setCell(1, 3, 12284);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifytest')
+data.setCell(2, 2, 'testCases.TC_003_LoginDataDrivenTest')
+data.setCell(2, 3, 12196);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifytest')
+data.setCell(3, 2, 'testCases.TC_003_LoginDataDrivenTest')
+data.setCell(3, 3, 12114);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifytest')
+data.setCell(4, 2, 'testCases.TC_003_LoginDataDrivenTest')
+data.setCell(4, 3, 2797);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifytest')
+data.setCell(5, 2, 'testCases.TC_003_LoginDataDrivenTest')
+data.setCell(5, 3, 2769);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifytest')
+data.setCell(6, 2, 'testCases.TC_003_LoginDataDrivenTest')
+data.setCell(6, 3, 2647);
+window.suiteTableData['mysuite']= { tableData: data, tableDiv: 'times-div-mysuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 ms</span>
-              <div id="times-div-mastersuite">
-              </div> <!-- times-div-mastersuite -->
+              <span class="suite-total-time">Total running time: 57 seconds</span>
+              <div id="times-div-mysuite">
+              </div> <!-- times-div-mysuite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-mastersuite" class="panel">
+        <div panel-name="reporter-mysuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for mastersuite</span>
+            <span class="header-content">Reporter output for mysuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-mastersuite" class="panel">
+        <div panel-name="ignored-methods-mysuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-mastersuite" class="panel">
+        <div panel-name="chronological-mysuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC_001_AccountRegistrationTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.TC_003_LoginDataDrivenTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">setup(chrome, windows)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifytest(pavanoltraining@gmail.com, test@123, Valid)</span>
+                <span class="method-start">13078 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifytest(lakshmi@yahoo.com, Laxmi, Valid)</span>
+                <span class="method-start">25950 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifytest(laksh@yahoo.com, Lakshmi, Valid)</span>
+                <span class="method-start">28618 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifytest(laks@yahoo.com, xyz, Invalid)</span>
+                <span class="method-start">31404 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifytest(abc123@gmail.com, test@123, Valid)</span>
+                <span class="method-start">43522 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifytest(, , )</span>
+                <span class="method-start">46328 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifytest(, , )</span>
+                <span class="method-start">58731 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">70949 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
