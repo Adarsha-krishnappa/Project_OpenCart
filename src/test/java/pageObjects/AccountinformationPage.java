@@ -18,16 +18,16 @@ public class AccountinformationPage extends BasePage{
 	private WebElement txtFirstName;
 	
 	@FindBy(xpath="//*[@id='input-lastname']")
-	WebElement txtLastName;
+	private WebElement txtLastName;
 
 	@FindBy(xpath="//*[@id='input-email']")
-	WebElement txtEmail;
+	private WebElement txtEmail;
 	
 	@FindBy(xpath="//*[@id='input-telephone']")
-	WebElement txtTelePhone;
+	private WebElement txtTelePhone;
 	
 	@FindBy(xpath="//input[@value='Continue']")
-	WebElement ContinueBtn;
+	private WebElement ContinueBtn;
 	
 	public void UpdateFirstname(String Firstname)
 	{
