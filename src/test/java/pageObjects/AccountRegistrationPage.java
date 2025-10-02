@@ -17,28 +17,28 @@ public class AccountRegistrationPage extends BasePage{
 private WebElement txtFirstname;
 
 @FindBy(xpath="//input[@id='input-lastname']") 
-WebElement txtLasttname;
+private WebElement txtLasttname;
 
 @FindBy(xpath="//input[@id='input-email']") 
-WebElement txtEmail;
+private WebElement txtEmail;
 
 @FindBy(xpath="//input[@id='input-telephone']") 
-WebElement txtTelephone;
+private WebElement txtTelephone;
 
 @FindBy(xpath="//input[@id='input-password']") 
-WebElement txtPassword;
+private WebElement txtPassword;
 
 @FindBy(xpath="//input[@id='input-confirm']") 
-WebElement txtConfirmPassword;
+private WebElement txtConfirmPassword;
 
 @FindBy(xpath="//input[@name='agree']") 
-WebElement chkdPolicy;
+private WebElement chkdPolicy;
 
 @FindBy(xpath="//input[@value='Continue']") 
-WebElement btnContinue;
+private WebElement btnContinue;
 
 @FindBy(xpath = "//h1[normalize-space()='Your Account Has Been Created!']")
-WebElement msgConfirmation;
+private WebElement msgConfirmation;
 
 
 public void setFirstName(String fname) 
